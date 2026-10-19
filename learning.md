@@ -55,3 +55,39 @@ hooks
 Permissions (settings.json, permissions.deny)
 - Define what the agent is allowed to do, what requires confirmation, and what is prohibited.
 - Always test: try to get the agent to access something that is blocked and see if it refuses.
+
+4. Prediction
+what the model actually does:
+
+An LLM does one single thing: it predicts the next piece of text. It’s like the autocomplete feature on a mobile phone keyboard—only massive and trained on a vast amount of text.
+
+An illustrative example, using made-up numbers:
+
+“The sky is ___”
+blue (60%) · cloudy (20%) · beautiful (10%) · other (10%)
+
+It selects one (with a degree of randomness, controlled by a parameter called “temperature”), adds it to the text, and repeats the process. An entire response is built this way—one piece at a time. It does not plan the whole text in advance.
+
+5. Tokens: the “pieces” of text
+
+The model does not read individual letters or exact words. Instead, it reads tokens—which can be a short word, part of a word, a symbol, or even a space. The precise way text is broken down depends on the specific model.
+
+Why this matters:
+Context limits and costs are calculated in tokens, not words.
+Texts in Portuguese and programming code typically consume more tokens than simple English text.
+Because the model does not perceive letters one by one, tasks such as “count the letters in this word” may fail.
+
+6. Vectors (embeddings): meaning expressed in numbers
+Each token is transformed into a list of numbers—a vector. Think of it like a map: words with similar meanings are positioned close to one another (“dog” would be near “canine,” but far from “compiler”).
+These are the numbers the model uses for its internal processing. Externally, this same mechanism enables searches based on meaning rather than exact keyword matches, and it serves as the foundation for RAG.
+
+7. Hallucination: a direct consequence of prediction
+Because the model selects the most probable and coherent text—rather than consulting a factual database—it may generate content that sounds correct but is actually false. Furthermore, it cannot recognize this on its own.
+This occurs more frequently when:
+
+- there is limited training material on the subject
+- context is missing
+- the prompt is vague
+- the conversation has become too long
+
+How to mitigate this: provide context, instruct the model to say "I don't know" when it is uncertain, verify the output (by compiling, testing, or checking documentation), and implement a framework that incorporates external tools and RAG (Retrieval-Augmented Generation).
