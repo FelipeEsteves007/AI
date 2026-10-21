@@ -91,3 +91,19 @@ This occurs more frequently when:
 - the conversation has become too long
 
 How to mitigate this: provide context, instruct the model to say "I don't know" when it is uncertain, verify the output (by compiling, testing, or checking documentation), and implement a framework that incorporates external tools and RAG (Retrieval-Augmented Generation).
+
+8. SDD stands for Spec-Driven Development.
+
+The idea is that you first write down what you want to build (the spec), and then the AI ​​implements it based on that spec, rather than you asking for the code directly.
+
+- spec.md (SDD)
+  What it is: A file that describes WHAT to build, before the AI ​​writes any code. The agent reads it and uses it as a guide (think of it as a "signpost").
+  
+  What to include:
+- Objective: the problem the system solves
+- Requirements: what it must do
+- Rules and constraints
+- Out of scope: what will NOT be built
+- Acceptance criteria: how to determine when it’s finished
+
+Why use it: Vague requests lead the AI ​​to guess (hallucinate). The spec removes ambiguity before the coding begins.
