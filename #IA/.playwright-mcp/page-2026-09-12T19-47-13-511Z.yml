@@ -1,0 +1,112 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e6]:
+    - banner [ref=f2e7]:
+      - generic [ref=f2e8]:
+        - generic [ref=f2e9]: CRM de Alunos
+        - navigation "Navegação principal" [ref=f2e10]:
+          - list [ref=f2e11]:
+            - listitem [ref=f2e12]:
+              - link "Dashboard" [ref=f2e13] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e14]:
+              - link "Alunos" [ref=f2e15] [cursor=pointer]:
+                - /url: /students
+            - listitem [ref=f2e16]:
+              - link "Cursos" [ref=f2e17] [cursor=pointer]:
+                - /url: /courses
+            - listitem [ref=f2e18]:
+              - link "Pipeline" [ref=f2e19] [cursor=pointer]:
+                - /url: /pipeline
+            - listitem [ref=f2e20]:
+              - link "Tarefas" [ref=f2e21] [cursor=pointer]:
+                - /url: /tasks
+            - listitem [ref=f2e22]:
+              - link "Usuários" [ref=f2e23] [cursor=pointer]:
+                - /url: /settings/users
+        - generic [ref=f2e24]:
+          - generic [ref=f2e25]: Admin Demonstração
+          - button "Sair" [ref=f2e26] [cursor=pointer]
+    - main [ref=f2e27]:
+      - generic [ref=f2e28]:
+        - navigation "Trilha" [ref=f2e29]:
+          - list [ref=f2e30]:
+            - listitem [ref=f2e31]:
+              - link "Alunos" [ref=f2e32] [cursor=pointer]:
+                - /url: /students
+            - listitem [aria-hidden] [ref=f2e33]: ›
+            - listitem [ref=f2e34]: André Ferreira
+        - heading "André Ferreira" [level=1] [ref=f2e35]
+        - generic [ref=f2e36]:
+          - button "Editar" [ref=f2e37] [cursor=pointer]
+          - button "Enviar e-mail" [disabled] [ref=f2e38]
+          - generic [ref=f2e39]: "Ainda não disponível: chega na Sprint 9."
+          - button "Nova tarefa" [disabled] [ref=f2e40]
+          - generic [ref=f2e41]: "Ainda não disponível: chega na Sprint 8."
+          - button "Excluir" [ref=f2e42] [cursor=pointer]
+        - generic [ref=f2e43]:
+          - region [ref=f2e44]:
+            - heading "Dados pessoais" [level=2] [ref=f2e45]
+            - generic [ref=f2e46]:
+              - generic [ref=f2e47]:
+                - generic [ref=f2e49]:
+                  - generic [ref=f2e50]:
+                    - generic [ref=f2e51]: Nome
+                    - generic [ref=f2e52]: André Ferreira
+                  - button "Editar nome" [ref=f2e53] [cursor=pointer]
+                - generic [ref=f2e57]:
+                  - generic [ref=f2e58]:
+                    - generic [ref=f2e59]: E-mail
+                    - generic [ref=f2e60]: andre.ferreira.22@exemplo.test
+                  - button "Editar e-mail" [ref=f2e61] [cursor=pointer]
+                - generic [ref=f2e65]:
+                  - generic [ref=f2e66]:
+                    - generic [ref=f2e67]: Telefone
+                    - generic [ref=f2e68]: +55 85 99310-8558
+                  - button "Editar telefone" [ref=f2e69] [cursor=pointer]
+                - generic [ref=f2e73]:
+                  - generic [ref=f2e74]:
+                    - generic [ref=f2e75]: CPF
+                    - generic [ref=f2e76]: 100.166.299-73
+                  - button "Editar cpf" [ref=f2e77] [cursor=pointer]
+                - generic [ref=f2e81]:
+                  - generic [ref=f2e82]:
+                    - generic [ref=f2e83]: Status
+                    - generic [ref=f2e84]: Ativo
+                  - button "Editar status" [ref=f2e86] [cursor=pointer]
+                - generic [ref=f2e89]:
+                  - generic [ref=f2e90]: Responsável
+                  - generic [ref=f2e91]: Ana Souza
+              - paragraph [ref=f2e92]:
+                - text: Atualizado em
+                - time [ref=f2e93]: 12/09/2026 16:44
+          - region [ref=f2e94]:
+            - heading "Anotações" [level=2] [ref=f2e95]
+            - generic [ref=f2e98]:
+              - generic [ref=f2e99]:
+                - generic [ref=f2e100]: Anotações
+                - generic [ref=f2e101]: Reclamou do acesso à plataforma — resolvido.
+              - button "Editar anotações" [ref=f2e102] [cursor=pointer]
+          - region [ref=f2e105]:
+            - heading "Cursos comprados" [level=2] [ref=f2e106]
+            - list [ref=f2e108]:
+              - listitem [ref=f2e109]:
+                - generic [ref=f2e110]: Delphi Moderno
+                - generic [ref=f2e111]:
+                  - generic [ref=f2e112]: R$ 397,00
+                  - generic [ref=f2e113]: 31/08/2026
+          - region [ref=f2e114]:
+            - heading "Oportunidades" [level=2] [ref=f2e115]
+            - list [ref=f2e117]:
+              - listitem [ref=f2e118]:
+                - generic [ref=f2e119]: Prospecção
+                - generic [ref=f2e120]: R$ 350,00
+          - region [ref=f2e121]:
+            - heading "Tarefas" [level=2] [ref=f2e122]
+            - generic [ref=f2e123]:
+              - heading "Pendentes" [level=3] [ref=f2e124]
+              - list "Tarefas pendentes" [ref=f2e125]:
+                - listitem [ref=f2e126]:
+                  - generic [ref=f2e127]: Agendar call de onboarding
+                  - generic [ref=f2e128]: 28/09/2026
+  - button "Open Next.js Dev Tools" [ref=f2e135] [cursor=pointer]
+  - alert [ref=f2e5]: /students/7e66b20f-5a2a-41c7-ae28-f0453fe74245

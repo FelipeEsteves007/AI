@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_mcd0I0FbdxLKEF3bCFCz5xnUVRN8",
+  "orgId": "team_KHxPHMM72NtNZyCsJNUbllru",
+  "projectName": "crm-alunos",
+  "settings": {
+    "createdAt": 1789411289618,
+    "framework": "nextjs",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

@@ -1,0 +1,3 @@
+module.exports=[67436,a=>{"use strict";a.s(["createUser",()=>d,"listUsers",()=>c,"resetPassword",()=>f,"updateUser",()=>e]);var b=a.i(31294);async function c(){let a=await (0,b.apiClient)("/api/users");return a?.users??[]}async function d(a){return await (0,b.apiClient)("/api/users",{method:"POST",body:a})}async function e(a,c){return(await (0,b.apiClient)(`/api/users/${a}`,{method:"PUT",body:c})).user}async function f(a){return await (0,b.apiClient)(`/api/users/${a}/password-reset`,{method:"POST"})}}];
+
+//# sourceMappingURL=src_services_usersService_ts_d6dc55d9._.js.map

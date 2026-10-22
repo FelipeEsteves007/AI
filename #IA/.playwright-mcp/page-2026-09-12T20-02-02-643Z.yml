@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: CRM de Alunos
+        - navigation "Navegação principal" [ref=e19]:
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "Dashboard" [ref=e22] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e23]:
+              - link "Alunos" [ref=e24] [cursor=pointer]:
+                - /url: /students
+            - listitem [ref=e25]:
+              - link "Cursos" [ref=e26] [cursor=pointer]:
+                - /url: /courses
+            - listitem [ref=e27]:
+              - link "Pipeline" [ref=e28] [cursor=pointer]:
+                - /url: /pipeline
+            - listitem [ref=e29]:
+              - link "Tarefas" [ref=e30] [cursor=pointer]:
+                - /url: /tasks
+        - generic [ref=e31]:
+          - generic [ref=e32]: Ana Souza
+          - button "Sair" [ref=e33] [cursor=pointer]
+    - main [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Alunos" [level=1] [ref=e37]
+          - paragraph [ref=e38]: Busque, filtre e acompanhe os alunos.
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Buscar por nome ou e-mail
+            - searchbox "Buscar por nome ou e-mail" [ref=e42]: joão
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: Status
+              - combobox "Status" [ref=e46]:
+                - option "Todos" [selected]
+                - option "Ativo"
+                - option "Inativo"
+                - option "Pausado"
+            - button "Limpar filtros" [ref=e47] [cursor=pointer]
+        - generic [ref=e49]:
+          - table [ref=e51]:
+            - caption [ref=e52]: Alunos
+            - rowgroup [ref=e53]:
+              - row [ref=e54]:
+                - columnheader [ref=e55]:
+                  - button "Nome" [ref=e56] [cursor=pointer]:
+                    - text: Nome
+                    - generic [aria-hidden] [ref=e57]: ↕
+                - columnheader "E-mail" [ref=e58]
+                - columnheader "Telefone" [ref=e59]
+                - columnheader "CPF" [ref=e60]
+                - columnheader [ref=e61]:
+                  - button "Status" [ref=e62] [cursor=pointer]:
+                    - text: Status
+                    - generic [aria-hidden] [ref=e63]: ↕
+                - columnheader "Vendedor" [ref=e64]
+                - columnheader [ref=e65]:
+                  - button "Cadastro" [ref=e66] [cursor=pointer]:
+                    - text: Cadastro
+                    - generic [aria-hidden] [ref=e67]: ▼
+                - columnheader "Ações" [ref=e68]
+            - rowgroup [ref=e69]:
+              - row [ref=e70] [cursor=pointer]:
+                - rowheader "João Gonçalves" [ref=e71]
+                - cell "joao.goncalves.1639@exemplo.test" [ref=e72]
+                - cell "—" [ref=e73]
+                - cell "112.971.322-97" [ref=e74]
+                - cell "Ativo" [ref=e75]
+                - cell "Ana Souza" [ref=e77]
+                - cell "03/08/2026" [ref=e78]
+                - cell [ref=e79]:
+                  - generic [ref=e80]:
+                    - button "Ver João Gonçalves" [ref=e81]: Ver
+                    - button "Editar João Gonçalves" [ref=e82]: Editar
+              - row [ref=e83] [cursor=pointer]:
+                - rowheader "João Soares" [ref=e84]
+                - cell "joao.soares.2788@exemplo.test" [ref=e85]
+                - cell "+55 71 96499-4964" [ref=e86]
+                - cell "122.070.253-65" [ref=e87]
+                - cell "Pausado" [ref=e88]
+                - cell "Ana Souza" [ref=e90]
+                - cell "13/07/2026" [ref=e91]
+                - cell [ref=e92]:
+                  - generic [ref=e93]:
+                    - button "Ver João Soares" [ref=e94]: Ver
+                    - button "Editar João Soares" [ref=e95]: Editar
+              - row [ref=e96] [cursor=pointer]:
+                - rowheader "João Santana" [ref=e97]
+                - cell "joao.santana.1804@exemplo.test" [ref=e98]
+                - cell "—" [ref=e99]
+                - cell "114.277.957-20" [ref=e100]
+                - cell "Ativo" [ref=e101]
+                - cell "Ana Souza" [ref=e103]
+                - cell "26/06/2026" [ref=e104]
+                - cell [ref=e105]:
+                  - generic [ref=e106]:
+                    - button "Ver João Santana" [ref=e107]: Ver
+                    - button "Editar João Santana" [ref=e108]: Editar
+              - row [ref=e109] [cursor=pointer]:
+                - rowheader "João Teixeira" [ref=e110]
+                - cell "joao.teixeira.535@exemplo.test" [ref=e111]
+                - cell "+55 31 93995-2899" [ref=e112]
+                - cell "104.228.746-55" [ref=e113]
+                - cell "Inativo" [ref=e114]
+                - cell "Ana Souza" [ref=e116]
+                - cell "04/06/2026" [ref=e117]
+                - cell [ref=e118]:
+                  - generic [ref=e119]:
+                    - button "Ver João Teixeira" [ref=e120]: Ver
+                    - button "Editar João Teixeira" [ref=e121]: Editar
+              - row [ref=e122] [cursor=pointer]:
+                - rowheader "João Martins" [ref=e123]
+                - cell "joao.martins.1309@exemplo.test" [ref=e124]
+                - cell "+55 61 93647-8998" [ref=e125]
+                - cell "110.358.052-35" [ref=e126]
+                - cell "Ativo" [ref=e127]
+                - cell "Ana Souza" [ref=e129]
+                - cell "23/05/2026" [ref=e130]
+                - cell [ref=e131]:
+                  - generic [ref=e132]:
+                    - button "Ver João Martins" [ref=e133]: Ver
+                    - button "Editar João Martins" [ref=e134]: Editar
+              - row [ref=e135] [cursor=pointer]:
+                - rowheader "João Ramos" [ref=e136]
+                - cell "joao.ramos.1495@exemplo.test" [ref=e137]
+                - cell "+55 61 99367-3462" [ref=e138]
+                - cell "111.830.986-34" [ref=e139]
+                - cell "Ativo" [ref=e140]
+                - cell "Ana Souza" [ref=e142]
+                - cell "22/04/2026" [ref=e143]
+                - cell [ref=e144]:
+                  - generic [ref=e145]:
+                    - button "Ver João Ramos" [ref=e146]: Ver
+                    - button "Editar João Ramos" [ref=e147]: Editar
+              - row [ref=e148] [cursor=pointer]:
+                - rowheader "João Gomes" [ref=e149]
+                - cell "joao.gomes.490@exemplo.test" [ref=e150]
+                - cell "+55 71 94964-3608" [ref=e151]
+                - cell "103.872.391-46" [ref=e152]
+                - cell "Inativo" [ref=e153]
+                - cell "Ana Souza" [ref=e155]
+                - cell "31/03/2026" [ref=e156]
+                - cell [ref=e157]:
+                  - generic [ref=e158]:
+                    - button "Ver João Gomes" [ref=e159]: Ver
+                    - button "Editar João Gomes" [ref=e160]: Editar
+              - row [ref=e161] [cursor=pointer]:
+                - rowheader "João Rodrigues" [ref=e162]
+                - cell "joao.rodrigues.2800@exemplo.test" [ref=e163]
+                - cell "+55 85 99552-3037" [ref=e164]
+                - cell "122.165.281-88" [ref=e165]
+                - cell "Inativo" [ref=e166]
+                - cell "Ana Souza" [ref=e168]
+                - cell "03/03/2026" [ref=e169]
+                - cell [ref=e170]:
+                  - generic [ref=e171]:
+                    - button "Ver João Rodrigues" [ref=e172]: Ver
+                    - button "Editar João Rodrigues" [ref=e173]: Editar
+              - row [ref=e174] [cursor=pointer]:
+                - rowheader "João Simões" [ref=e175]
+                - cell "joao.simoes.2932@exemplo.test" [ref=e176]
+                - cell "+55 11 92858-4081" [ref=e177]
+                - cell "123.210.589-94" [ref=e178]
+                - cell "Ativo" [ref=e179]
+                - cell "Ana Souza" [ref=e181]
+                - cell "02/03/2026" [ref=e182]
+                - cell [ref=e183]:
+                  - generic [ref=e184]:
+                    - button "Ver João Simões" [ref=e185]: Ver
+                    - button "Editar João Simões" [ref=e186]: Editar
+              - row [ref=e187] [cursor=pointer]:
+                - rowheader "João Marques" [ref=e188]
+                - cell "joao.marques.2839@exemplo.test" [ref=e189]
+                - cell "+55 51 99446-1917" [ref=e190]
+                - cell "122.474.122-62" [ref=e191]
+                - cell "Ativo" [ref=e192]
+                - cell "Ana Souza" [ref=e194]
+                - cell "17/01/2026" [ref=e195]
+                - cell [ref=e196]:
+                  - generic [ref=e197]:
+                    - button "Ver João Marques" [ref=e198]: Ver
+                    - button "Editar João Marques" [ref=e199]: Editar
+              - row [ref=e200] [cursor=pointer]:
+                - rowheader "João Barbosa" [ref=e201]
+                - cell "joao.barbosa.256@exemplo.test" [ref=e202]
+                - cell "+55 41 91717-4154" [ref=e203]
+                - cell "102.019.345-07" [ref=e204]
+                - cell "Ativo" [ref=e205]
+                - cell "Ana Souza" [ref=e207]
+                - cell "11/01/2026" [ref=e208]
+                - cell [ref=e209]:
+                  - generic [ref=e210]:
+                    - button "Ver João Barbosa" [ref=e211]: Ver
+                    - button "Editar João Barbosa" [ref=e212]: Editar
+              - row [ref=e213] [cursor=pointer]:
+                - rowheader "João Freitas" [ref=e214]
+                - cell "joao.freitas.2779@exemplo.test" [ref=e215]
+                - cell "+55 41 95204-3965" [ref=e216]
+                - cell "121.998.982-70" [ref=e217]
+                - cell "Inativo" [ref=e218]
+                - cell "Ana Souza" [ref=e220]
+                - cell "23/12/2025" [ref=e221]
+                - cell [ref=e222]:
+                  - generic [ref=e223]:
+                    - button "Ver João Freitas" [ref=e224]: Ver
+                    - button "Editar João Freitas" [ref=e225]: Editar
+              - row [ref=e226] [cursor=pointer]:
+                - rowheader "João Rocha" [ref=e227]
+                - cell "joao.rocha.2644@exemplo.test" [ref=e228]
+                - cell "+55 71 93188-9010" [ref=e229]
+                - cell "120.929.917-87" [ref=e230]
+                - cell "Inativo" [ref=e231]
+                - cell "Ana Souza" [ref=e233]
+                - cell "20/12/2025" [ref=e234]
+                - cell [ref=e235]:
+                  - generic [ref=e236]:
+                    - button "Ver João Rocha" [ref=e237]: Ver
+                    - button "Editar João Rocha" [ref=e238]: Editar
+              - row [ref=e239] [cursor=pointer]:
+                - rowheader "João Pereira" [ref=e240]
+                - cell "joao.pereira.2686@exemplo.test" [ref=e241]
+                - cell "+55 71 98801-1566" [ref=e242]
+                - cell "—" [ref=e243]
+                - cell "Ativo" [ref=e244]
+                - cell "Ana Souza" [ref=e246]
+                - cell "16/12/2025" [ref=e247]
+                - cell [ref=e248]:
+                  - generic [ref=e249]:
+                    - button "Ver João Pereira" [ref=e250]: Ver
+                    - button "Editar João Pereira" [ref=e251]: Editar
+              - row [ref=e252] [cursor=pointer]:
+                - rowheader "João Silva" [ref=e253]
+                - cell "joao.silva.1342@exemplo.test" [ref=e254]
+                - cell "+55 61 98133-6603" [ref=e255]
+                - cell "—" [ref=e256]
+                - cell "Pausado" [ref=e257]
+                - cell "Ana Souza" [ref=e259]
+                - cell "14/10/2025" [ref=e260]
+                - cell [ref=e261]:
+                  - generic [ref=e262]:
+                    - button "Ver João Silva" [ref=e263]: Ver
+                    - button "Editar João Silva" [ref=e264]: Editar
+              - row [ref=e265] [cursor=pointer]:
+                - rowheader "João Lopes" [ref=e266]
+                - cell "joao.lopes.487@exemplo.test" [ref=e267]
+                - cell "+55 61 94460-4287" [ref=e268]
+                - cell "103.848.634-34" [ref=e269]
+                - cell "Inativo" [ref=e270]
+                - cell "Ana Souza" [ref=e272]
+                - cell "29/09/2025" [ref=e273]
+                - cell [ref=e274]:
+                  - generic [ref=e275]:
+                    - button "Ver João Lopes" [ref=e276]: Ver
+                    - button "Editar João Lopes" [ref=e277]: Editar
+              - row [ref=e278] [cursor=pointer]:
+                - rowheader "João Moreira" [ref=e279]
+                - cell "joao.moreira.826@exemplo.test" [ref=e280]
+                - cell "+55 85 99031-7355" [ref=e281]
+                - cell "106.533.175-49" [ref=e282]
+                - cell "Ativo" [ref=e283]
+                - cell "Ana Souza" [ref=e285]
+                - cell "14/09/2025" [ref=e286]
+                - cell [ref=e287]:
+                  - generic [ref=e288]:
+                    - button "Ver João Moreira" [ref=e289]: Ver
+                    - button "Editar João Moreira" [ref=e290]: Editar
+              - row [ref=e291] [cursor=pointer]:
+                - rowheader "João Almeida" [ref=e292]
+                - cell "joao.almeida.691@exemplo.test" [ref=e293]
+                - cell "—" [ref=e294]
+                - cell "105.464.110-29" [ref=e295]
+                - cell "Ativo" [ref=e296]
+                - cell "Ana Souza" [ref=e298]
+                - cell "01/09/2025" [ref=e299]
+                - cell [ref=e300]:
+                  - generic [ref=e301]:
+                    - button "Ver João Almeida" [ref=e302]: Ver
+                    - button "Editar João Almeida" [ref=e303]: Editar
+              - row [ref=e304] [cursor=pointer]:
+                - rowheader "João Costa" [ref=e305]
+                - cell "joao.costa.2842@exemplo.test" [ref=e306]
+                - cell "+55 41 96493-4014" [ref=e307]
+                - cell "122.497.879-05" [ref=e308]
+                - cell "Ativo" [ref=e309]
+                - cell "Ana Souza" [ref=e311]
+                - cell "21/07/2025" [ref=e312]
+                - cell [ref=e313]:
+                  - generic [ref=e314]:
+                    - button "Ver João Costa" [ref=e315]: Ver
+                    - button "Editar João Costa" [ref=e316]: Editar
+              - row [ref=e317] [cursor=pointer]:
+                - rowheader "João Araújo" [ref=e318]
+                - cell "joao.araujo.799@exemplo.test" [ref=e319]
+                - cell "+55 61 96682-6703" [ref=e320]
+                - cell "106.319.362-11" [ref=e321]
+                - cell "Ativo" [ref=e322]
+                - cell "Ana Souza" [ref=e324]
+                - cell "17/07/2025" [ref=e325]
+                - cell [ref=e326]:
+                  - generic [ref=e327]:
+                    - button "Ver João Araújo" [ref=e328]: Ver
+                    - button "Editar João Araújo" [ref=e329]: Editar
+              - row [ref=e330] [cursor=pointer]:
+                - rowheader "João Moreira" [ref=e331]
+                - cell "joao.moreira.745@exemplo.test" [ref=e332]
+                - cell "—" [ref=e333]
+                - cell "—" [ref=e334]
+                - cell "Ativo" [ref=e335]
+                - cell "Ana Souza" [ref=e337]
+                - cell "09/07/2025" [ref=e338]
+                - cell [ref=e339]:
+                  - generic [ref=e340]:
+                    - button "Ver João Moreira" [ref=e341]: Ver
+                    - button "Editar João Moreira" [ref=e342]: Editar
+              - row [ref=e343] [cursor=pointer]:
+                - rowheader "João Ramos" [ref=e344]
+                - cell "joao.ramos.1672@exemplo.test" [ref=e345]
+                - cell "—" [ref=e346]
+                - cell "113.232.649-49" [ref=e347]
+                - cell "Ativo" [ref=e348]
+                - cell "Ana Souza" [ref=e350]
+                - cell "06/07/2025" [ref=e351]
+                - cell [ref=e352]:
+                  - generic [ref=e353]:
+                    - button "Ver João Ramos" [ref=e354]: Ver
+                    - button "Editar João Ramos" [ref=e355]: Editar
+              - row [ref=e356] [cursor=pointer]:
+                - rowheader "João Conceição" [ref=e357]
+                - cell "joao.conceicao.391@exemplo.test" [ref=e358]
+                - cell "—" [ref=e359]
+                - cell "—" [ref=e360]
+                - cell "Ativo" [ref=e361]
+                - cell "Ana Souza" [ref=e363]
+                - cell "06/05/2025" [ref=e364]
+                - cell [ref=e365]:
+                  - generic [ref=e366]:
+                    - button "Ver João Conceição" [ref=e367]: Ver
+                    - button "Editar João Conceição" [ref=e368]: Editar
+              - row [ref=e369] [cursor=pointer]:
+                - rowheader "João Cardoso" [ref=e370]
+                - cell "joao.cardoso.1255@exemplo.test" [ref=e371]
+                - cell "+55 71 93143-3288" [ref=e372]
+                - cell "109.930.426-19" [ref=e373]
+                - cell "Ativo" [ref=e374]
+                - cell "Ana Souza" [ref=e376]
+                - cell "13/04/2025" [ref=e377]
+                - cell [ref=e378]:
+                  - generic [ref=e379]:
+                    - button "Ver João Cardoso" [ref=e380]: Ver
+                    - button "Editar João Cardoso" [ref=e381]: Editar
+              - row [ref=e382] [cursor=pointer]:
+                - rowheader "João Souza" [ref=e383]
+                - cell "joao.souza.565@exemplo.test" [ref=e384]
+                - cell "+55 71 95574-9366" [ref=e385]
+                - cell "104.466.316-20" [ref=e386]
+                - cell "Inativo" [ref=e387]
+                - cell "Ana Souza" [ref=e389]
+                - cell "08/04/2025" [ref=e390]
+                - cell [ref=e391]:
+                  - generic [ref=e392]:
+                    - button "Ver João Souza" [ref=e393]: Ver
+                    - button "Editar João Souza" [ref=e394]: Editar
+          - navigation "Paginação de alunos" [ref=e396]:
+            - generic [ref=e397]:
+              - paragraph [ref=e398]: Página 1 de 1
+              - paragraph [ref=e399]: Mostrando 1–25 de 25
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - button "‹ Anterior" [disabled] [ref=e402]
+              - listitem [ref=e403]:
+                - button "Página 1" [ref=e404] [cursor=pointer]: "1"
+              - listitem [ref=e405]:
+                - button "Próxima ›" [disabled] [ref=e406]
+  - button "Open Next.js Dev Tools" [ref=e10] [cursor=pointer]
+  - alert [ref=e14]

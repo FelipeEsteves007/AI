@@ -1,0 +1,16 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e139]:
+    - generic [ref=f2e140]:
+      - generic [ref=f2e141]:
+        - heading "CRM de Alunos" [level=1] [ref=f2e142]
+        - paragraph [ref=f2e143]: Gestão de alunos e vendas
+      - generic [ref=f2e144]:
+        - generic [ref=f2e145]:
+          - generic [ref=f2e146]: E-mail
+          - textbox "E-mail" [ref=f2e147]
+        - generic [ref=f2e148]:
+          - generic [ref=f2e149]: Senha
+          - textbox "Senha" [ref=f2e150]
+        - button "Entrar" [ref=f2e151] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f2e135] [cursor=pointer]
+  - alert [ref=f2e5]: Entrar — CRM de Alunos

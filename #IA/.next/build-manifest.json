@@ -1,0 +1,111 @@
+{
+  "pages": {
+    "/": [
+      "static/chunks/9479ab49def181c5.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/c627d6725fd0907f.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-85abe2ddcd632655.js"
+    ],
+    "/_app": [
+      "static/chunks/33a601cdef6f9741.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/64c731da96a6c969.css",
+      "static/chunks/turbopack-dae8fdd6d0f98e58.js"
+    ],
+    "/_error": [
+      "static/chunks/400c2bed2f3abe86.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-5d8727703a5cc964.js"
+    ],
+    "/change-password": [
+      "static/chunks/2f5677c6d060eaa9.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-45573a8e7fb4358c.js"
+    ],
+    "/courses": [
+      "static/chunks/820dce48d8b9d9c4.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-7b22613efe2acd09.js"
+    ],
+    "/login": [
+      "static/chunks/c62b4f98541aee44.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-6fe76074893de0fa.js"
+    ],
+    "/pipeline": [
+      "static/chunks/fb4a696f2310c0bd.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/turbopack-5d7e8b57421c17e0.js"
+    ],
+    "/settings/import": [
+      "static/chunks/0468f3ca9d4ee31d.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-b1b917b2a1b57420.js"
+    ],
+    "/settings/users": [
+      "static/chunks/f2754d77e06dfd1c.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/turbopack-52fc5631c0c67663.js"
+    ],
+    "/students": [
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/ccee44c40ef66165.js",
+      "static/chunks/turbopack-a0e04ff9061a93a9.js"
+    ],
+    "/students/[id]": [
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/1ab0d22e4eae0f2a.js",
+      "static/chunks/turbopack-a317b46b64cfc565.js"
+    ],
+    "/tasks": [
+      "static/chunks/6bae0826b82ad45f.js",
+      "static/chunks/7fbd41d92a8e1b53.js",
+      "static/chunks/ae7ee21bdf299463.js",
+      "static/chunks/9eab4d5b13d13933.js",
+      "static/chunks/1cda33fb9f3e1094.js",
+      "static/chunks/turbopack-18f43c55dfec9135.js"
+    ]
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/JvZm42se1UoJpgUmY5D4d/_ssgManifest.js",
+    "static/JvZm42se1UoJpgUmY5D4d/_buildManifest.js"
+  ],
+  "rootMainFiles": [],
+  "ampFirstPages": []
+}

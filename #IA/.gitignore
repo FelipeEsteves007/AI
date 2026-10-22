@@ -1,0 +1,101 @@
+# .gitignore reforçado — também serve de exclusão de contexto para o OpenCode.
+# Nunca ignore código-fonte (src/, api/, prisma/), testes (tests/), documentação (ImersaoIA/ — vault do Obsidian)
+# nem o package-lock.json (ele precisa ser versionado).
+
+# Dependências
+node_modules/
+.pnpm-store/
+.yarn/
+.pnp.*
+
+# Build e arquivos gerados
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+.swc/
+*.tsbuildinfo
+next-env.d.ts
+prisma/generated/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Segredos e variáveis de ambiente (só o exemplo vai para o repositório)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+secrets/
+credentials*.json
+service-account*.json
+.npmrc
+.claude/settings.local.json
+
+# Banco de dados local
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+pgdata/
+postgres-data/
+.data/
+
+# Uploads e mídia (CSVs de importação contêm CPF e e-mail de alunos)
+/uploads/
+/public/uploads/
+/storage/
+/tmp/
+/exports/
+*.csv
+*.xls
+*.xlsx
+!tests/**/*.csv
+*.mp4
+*.mov
+*.zip
+
+# Cache e logs
+.cache/
+.eslintcache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Obsidian — o vault ImersaoIA/ É versionado (é a documentação do projeto).
+# Só o estado local de janela/cache fica de fora.
+ImersaoIA/.obsidian/workspace.json
+ImersaoIA/.obsidian/workspace-mobile.json
+ImersaoIA/.obsidian/cache/
+.trash/
+
+# RAG de aprendizados (.claude/scripts)
+.claude/rag.db
+.claude/rag.db-*
+.claude/.models/
+.claude/knowledge/.captura.log
+.claude/knowledge/.ultima-captura-*
+.claude/knowledge/.subagent-stop-input.json
+
+# Artefatos do Playwright MCP
+.playwright-mcp/
+
+.vercel
+.env*

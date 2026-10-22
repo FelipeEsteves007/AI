@@ -1,0 +1,84 @@
+# Exclusão de contexto do Claude Code — Next.js 15 + Express 5 + Prisma + PostgreSQL
+# Nunca liste aqui código-fonte (src/, api/, prisma/), testes (tests/) ou documentação (ImersaoIA/, CLAUDE.md).
+
+# Dependências
+node_modules/
+.pnpm-store/
+.yarn/
+.pnp.*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build e arquivos gerados
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+.swc/
+*.tsbuildinfo
+next-env.d.ts
+prisma/generated/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+secrets/
+credentials*.json
+service-account*.json
+.npmrc
+
+# Banco de dados local
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+pgdata/
+postgres-data/
+.data/
+
+# Uploads e mídia
+/uploads/
+/public/uploads/
+/storage/
+/tmp/
+/exports/
+*.csv
+*.xls
+*.xlsx
+!tests/**/*.csv
+*.mp4
+*.mov
+*.zip
+
+# Cache e logs
+.cache/
+.eslintcache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Obsidian — config interna do vault (a documentação em ImersaoIA/*.md continua legível)
+ImersaoIA/.obsidian/

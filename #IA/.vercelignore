@@ -1,0 +1,18 @@
+# Upload de `vercel deploy` pela CLI. Deploys pelo Git já só levam o que está commitado.
+# Nunca subir variáveis locais: o Next leria o .env.local no build (API_URL e banco de dev).
+.env
+.env.*
+!.env.example
+
+# Ferramentas locais e artefatos
+.claude/knowledge/
+.claude/rag.db*
+.claude/.models/
+.agents/
+skills-lock.json
+.next/
+coverage/
+test-results/
+playwright-report/
+.playwright-mcp/
+ImersaoIA/.obsidian/

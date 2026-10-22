@@ -1,0 +1,748 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - generic [ref=f1e6]: CRM de Alunos
+        - navigation "Navegação principal" [ref=f1e7]:
+          - list [ref=f1e8]:
+            - listitem [ref=f1e9]:
+              - link "Dashboard" [ref=f1e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e11]:
+              - link "Alunos" [ref=f1e12] [cursor=pointer]:
+                - /url: /students
+            - listitem [ref=f1e13]:
+              - link "Cursos" [ref=f1e14] [cursor=pointer]:
+                - /url: /courses
+            - listitem [ref=f1e15]:
+              - link "Pipeline" [ref=f1e16] [cursor=pointer]:
+                - /url: /pipeline
+            - listitem [ref=f1e17]:
+              - link "Tarefas" [ref=f1e18] [cursor=pointer]:
+                - /url: /tasks
+            - listitem [ref=f1e19]:
+              - link "Usuários" [ref=f1e20] [cursor=pointer]:
+                - /url: /settings/users
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]: Admin Demonstração
+          - button "Sair" [ref=f1e23] [cursor=pointer]
+    - main [ref=f1e24]:
+      - generic [ref=f1e25]:
+        - generic [ref=f1e26]:
+          - heading "Alunos" [level=1] [ref=f1e27]
+          - paragraph [ref=f1e28]: Busque, filtre e acompanhe os alunos.
+        - generic [ref=f1e29]:
+          - generic [ref=f1e30]:
+            - generic [ref=f1e31]: Buscar por nome ou e-mail
+            - searchbox "Buscar por nome ou e-mail" [ref=f1e32]
+          - generic [ref=f1e33]:
+            - generic [ref=f1e34]:
+              - generic [ref=f1e35]: Status
+              - combobox "Status" [ref=f1e36]:
+                - option "Todos" [selected]
+                - option "Ativo"
+                - option "Inativo"
+                - option "Pausado"
+            - generic [ref=f1e37]:
+              - generic [ref=f1e38]: Vendedor
+              - combobox "Vendedor" [ref=f1e39]:
+                - option "Todos" [selected]
+                - option "Admin Demonstração"
+                - option "Adriano Santos"
+                - option "Ana Souza"
+                - option "Bruno Lima"
+                - option "Camila Rocha"
+                - option "Carla Mendes"
+                - option "Diego Alves"
+                - option "Jose Pereira"
+        - generic [ref=f1e41]:
+          - table [ref=f1e43]:
+            - caption [ref=f1e44]: Alunos
+            - rowgroup [ref=f1e45]:
+              - row [ref=f1e46]:
+                - columnheader [ref=f1e47]:
+                  - button "Nome" [ref=f1e48] [cursor=pointer]:
+                    - text: Nome
+                    - generic [aria-hidden] [ref=f1e49]: ↕
+                - columnheader "E-mail" [ref=f1e50]
+                - columnheader "Telefone" [ref=f1e51]
+                - columnheader "CPF" [ref=f1e52]
+                - columnheader [ref=f1e53]:
+                  - button "Status" [ref=f1e54] [cursor=pointer]:
+                    - text: Status
+                    - generic [aria-hidden] [ref=f1e55]: ↕
+                - columnheader "Vendedor" [ref=f1e56]
+                - columnheader [ref=f1e57]:
+                  - button "Cadastro" [ref=f1e58] [cursor=pointer]:
+                    - text: Cadastro
+                    - generic [aria-hidden] [ref=f1e59]: ▼
+                - columnheader "Ações" [ref=f1e60]
+            - rowgroup [ref=f1e61]:
+              - row [ref=f1e62] [cursor=pointer]:
+                - rowheader "André Araújo" [ref=f1e63]
+                - cell "andre.araujo.2084@exemplo.test" [ref=f1e64]
+                - cell "+55 51 96299-1964" [ref=f1e65]
+                - cell "116.495.277-30" [ref=f1e66]
+                - cell "Pausado" [ref=f1e67]
+                - cell "Bruno Lima" [ref=f1e69]
+                - cell "12/09/2026" [ref=f1e70]
+                - cell [ref=f1e71]:
+                  - generic [ref=f1e72]:
+                    - button "Ver André Araújo" [ref=f1e73]: Ver
+                    - button "Editar André Araújo" [ref=f1e74]: Editar
+                    - button "Excluir André Araújo" [ref=f1e75]: Excluir
+              - row [ref=f1e76] [cursor=pointer]:
+                - rowheader "Ana Silva" [ref=f1e77]
+                - cell "ana.silva.851@exemplo.test" [ref=f1e78]
+                - cell "+55 21 92644-5572" [ref=f1e79]
+                - cell "106.731.150-54" [ref=f1e80]
+                - cell "Inativo" [ref=f1e81]
+                - cell "Bruno Lima" [ref=f1e83]
+                - cell "12/09/2026" [ref=f1e84]
+                - cell [ref=f1e85]:
+                  - generic [ref=f1e86]:
+                    - button "Ver Ana Silva" [ref=f1e87]: Ver
+                    - button "Editar Ana Silva" [ref=f1e88]: Editar
+                    - button "Excluir Ana Silva" [ref=f1e89]: Excluir
+              - row [ref=f1e90] [cursor=pointer]:
+                - rowheader "Carlos Pereira" [ref=f1e91]
+                - cell "carlos.pereira.1920@exemplo.test" [ref=f1e92]
+                - cell "+55 61 99729-2969" [ref=f1e93]
+                - cell "115.196.561-81" [ref=f1e94]
+                - cell "Ativo" [ref=f1e95]
+                - cell "Camila Rocha" [ref=f1e97]
+                - cell "12/09/2026" [ref=f1e98]
+                - cell [ref=f1e99]:
+                  - generic [ref=f1e100]:
+                    - button "Ver Carlos Pereira" [ref=f1e101]: Ver
+                    - button "Editar Carlos Pereira" [ref=f1e102]: Editar
+                    - button "Excluir Carlos Pereira" [ref=f1e103]: Excluir
+              - row [ref=f1e104] [cursor=pointer]:
+                - rowheader "Aline Brandão" [ref=f1e105]
+                - cell "aline.brandao.1911@exemplo.test" [ref=f1e106]
+                - cell "+55 41 99156-2711" [ref=f1e107]
+                - cell "115.125.290-52" [ref=f1e108]
+                - cell "Ativo" [ref=f1e109]
+                - cell "Camila Rocha" [ref=f1e111]
+                - cell "12/09/2026" [ref=f1e112]
+                - cell [ref=f1e113]:
+                  - generic [ref=f1e114]:
+                    - button "Ver Aline Brandão" [ref=f1e115]: Ver
+                    - button "Editar Aline Brandão" [ref=f1e116]: Editar
+                    - button "Excluir Aline Brandão" [ref=f1e117]: Excluir
+              - row [ref=f1e118] [cursor=pointer]:
+                - rowheader "Thiago Santos" [ref=f1e119]
+                - cell "thiago.santos.1210@exemplo.test" [ref=f1e120]
+                - cell "+55 81 95602-9094" [ref=f1e121]
+                - cell "109.574.071-73" [ref=f1e122]
+                - cell "Ativo" [ref=f1e123]
+                - cell "Ana Souza" [ref=f1e125]
+                - cell "12/09/2026" [ref=f1e126]
+                - cell [ref=f1e127]:
+                  - generic [ref=f1e128]:
+                    - button "Ver Thiago Santos" [ref=f1e129]: Ver
+                    - button "Editar Thiago Santos" [ref=f1e130]: Editar
+                    - button "Excluir Thiago Santos" [ref=f1e131]: Excluir
+              - row [ref=f1e132] [cursor=pointer]:
+                - rowheader "Juliana Conceição" [ref=f1e133]
+                - cell "juliana.conceicao.2770@exemplo.test" [ref=f1e134]
+                - cell "+55 11 93978-6018" [ref=f1e135]
+                - cell "—" [ref=f1e136]
+                - cell "Ativo" [ref=f1e137]
+                - cell "Ana Souza" [ref=f1e139]
+                - cell "12/09/2026" [ref=f1e140]
+                - cell [ref=f1e141]:
+                  - generic [ref=f1e142]:
+                    - button "Ver Juliana Conceição" [ref=f1e143]: Ver
+                    - button "Editar Juliana Conceição" [ref=f1e144]: Editar
+                    - button "Excluir Juliana Conceição" [ref=f1e145]: Excluir
+              - row [ref=f1e146] [cursor=pointer]:
+                - rowheader "Patrícia Gonçalves" [ref=f1e147]
+                - cell "patricia.goncalves.994@exemplo.test" [ref=f1e148]
+                - cell "—" [ref=f1e149]
+                - cell "—" [ref=f1e150]
+                - cell "Inativo" [ref=f1e151]
+                - cell "Ana Souza" [ref=f1e153]
+                - cell "11/09/2026" [ref=f1e154]
+                - cell [ref=f1e155]:
+                  - generic [ref=f1e156]:
+                    - button "Ver Patrícia Gonçalves" [ref=f1e157]: Ver
+                    - button "Editar Patrícia Gonçalves" [ref=f1e158]: Editar
+                    - button "Excluir Patrícia Gonçalves" [ref=f1e159]: Excluir
+              - row [ref=f1e160] [cursor=pointer]:
+                - rowheader "Felipe Marques" [ref=f1e161]
+                - cell "felipe.marques.749@exemplo.test" [ref=f1e162]
+                - cell "+55 81 97876-1477" [ref=f1e163]
+                - cell "105.923.412-24" [ref=f1e164]
+                - cell "Inativo" [ref=f1e165]
+                - cell "Bruno Lima" [ref=f1e167]
+                - cell "11/09/2026" [ref=f1e168]
+                - cell [ref=f1e169]:
+                  - generic [ref=f1e170]:
+                    - button "Ver Felipe Marques" [ref=f1e171]: Ver
+                    - button "Editar Felipe Marques" [ref=f1e172]: Editar
+                    - button "Excluir Felipe Marques" [ref=f1e173]: Excluir
+              - row [ref=f1e174] [cursor=pointer]:
+                - rowheader "Luiz Marques" [ref=f1e175]
+                - cell "luiz.marques.1202@exemplo.test" [ref=f1e176]
+                - cell "+55 11 95824-4695" [ref=f1e177]
+                - cell "109.510.719-47" [ref=f1e178]
+                - cell "Ativo" [ref=f1e179]
+                - cell "Bruno Lima" [ref=f1e181]
+                - cell "11/09/2026" [ref=f1e182]
+                - cell [ref=f1e183]:
+                  - generic [ref=f1e184]:
+                    - button "Ver Luiz Marques" [ref=f1e185]: Ver
+                    - button "Editar Luiz Marques" [ref=f1e186]: Editar
+                    - button "Excluir Luiz Marques" [ref=f1e187]: Excluir
+              - row [ref=f1e188] [cursor=pointer]:
+                - rowheader "Débora Nascimento" [ref=f1e189]
+                - cell "debora.nascimento.506@exemplo.test" [ref=f1e190]
+                - cell "+55 85 95228-9700" [ref=f1e191]
+                - cell "103.999.095-91" [ref=f1e192]
+                - cell "Ativo" [ref=f1e193]
+                - cell "Bruno Lima" [ref=f1e195]
+                - cell "11/09/2026" [ref=f1e196]
+                - cell [ref=f1e197]:
+                  - generic [ref=f1e198]:
+                    - button "Ver Débora Nascimento" [ref=f1e199]: Ver
+                    - button "Editar Débora Nascimento" [ref=f1e200]: Editar
+                    - button "Excluir Débora Nascimento" [ref=f1e201]: Excluir
+              - row [ref=f1e202] [cursor=pointer]:
+                - rowheader "Felipe Conceição" [ref=f1e203]
+                - cell "felipe.conceicao.2346@exemplo.test" [ref=f1e204]
+                - cell "+55 21 98976-9403" [ref=f1e205]
+                - cell "118.570.055-20" [ref=f1e206]
+                - cell "Ativo" [ref=f1e207]
+                - cell "Camila Rocha" [ref=f1e209]
+                - cell "10/09/2026" [ref=f1e210]
+                - cell [ref=f1e211]:
+                  - generic [ref=f1e212]:
+                    - button "Ver Felipe Conceição" [ref=f1e213]: Ver
+                    - button "Editar Felipe Conceição" [ref=f1e214]: Editar
+                    - button "Excluir Felipe Conceição" [ref=f1e215]: Excluir
+              - row [ref=f1e216] [cursor=pointer]:
+                - rowheader "Daniel Dias" [ref=f1e217]
+                - cell "daniel.dias.2233@exemplo.test" [ref=f1e218]
+                - cell "+55 71 95505-2411" [ref=f1e219]
+                - cell "117.675.208-16" [ref=f1e220]
+                - cell "Ativo" [ref=f1e221]
+                - cell "Ana Souza" [ref=f1e223]
+                - cell "10/09/2026" [ref=f1e224]
+                - cell [ref=f1e225]:
+                  - generic [ref=f1e226]:
+                    - button "Ver Daniel Dias" [ref=f1e227]: Ver
+                    - button "Editar Daniel Dias" [ref=f1e228]: Editar
+                    - button "Excluir Daniel Dias" [ref=f1e229]: Excluir
+              - row [ref=f1e230] [cursor=pointer]:
+                - rowheader "Pedro Araújo" [ref=f1e231]
+                - cell "pedro.araujo.1008@exemplo.test" [ref=f1e232]
+                - cell "+55 71 96776-4138" [ref=f1e233]
+                - cell "107.974.433-98" [ref=f1e234]
+                - cell "Ativo" [ref=f1e235]
+                - cell "Camila Rocha" [ref=f1e237]
+                - cell "10/09/2026" [ref=f1e238]
+                - cell [ref=f1e239]:
+                  - generic [ref=f1e240]:
+                    - button "Ver Pedro Araújo" [ref=f1e241]: Ver
+                    - button "Editar Pedro Araújo" [ref=f1e242]: Editar
+                    - button "Excluir Pedro Araújo" [ref=f1e243]: Excluir
+              - row [ref=f1e244] [cursor=pointer]:
+                - rowheader "Fernanda Gonçalves" [ref=f1e245]
+                - cell "fernanda.goncalves.2292@exemplo.test" [ref=f1e246]
+                - cell "+55 41 98180-3742" [ref=f1e247]
+                - cell "118.142.429-10" [ref=f1e248]
+                - cell "Ativo" [ref=f1e249]
+                - cell "Camila Rocha" [ref=f1e251]
+                - cell "10/09/2026" [ref=f1e252]
+                - cell [ref=f1e253]:
+                  - generic [ref=f1e254]:
+                    - button "Ver Fernanda Gonçalves" [ref=f1e255]: Ver
+                    - button "Editar Fernanda Gonçalves" [ref=f1e256]: Editar
+                    - button "Excluir Fernanda Gonçalves" [ref=f1e257]: Excluir
+              - row [ref=f1e258] [cursor=pointer]:
+                - rowheader "Pedro Nunes" [ref=f1e259]
+                - cell "pedro.nunes.522@exemplo.test" [ref=f1e260]
+                - cell "+55 19 94927-4820" [ref=f1e261]
+                - cell "104.125.799-60" [ref=f1e262]
+                - cell "Pausado" [ref=f1e263]
+                - cell "Camila Rocha" [ref=f1e265]
+                - cell "10/09/2026" [ref=f1e266]
+                - cell [ref=f1e267]:
+                  - generic [ref=f1e268]:
+                    - button "Ver Pedro Nunes" [ref=f1e269]: Ver
+                    - button "Editar Pedro Nunes" [ref=f1e270]: Editar
+                    - button "Excluir Pedro Nunes" [ref=f1e271]: Excluir
+              - row [ref=f1e272] [cursor=pointer]:
+                - rowheader "Paulo Lima" [ref=f1e273]
+                - cell "paulo.lima.2517@exemplo.test" [ref=f1e274]
+                - cell "+55 21 92109-1199" [ref=f1e275]
+                - cell "119.924.204-75" [ref=f1e276]
+                - cell "Inativo" [ref=f1e277]
+                - cell "Camila Rocha" [ref=f1e279]
+                - cell "10/09/2026" [ref=f1e280]
+                - cell [ref=f1e281]:
+                  - generic [ref=f1e282]:
+                    - button "Ver Paulo Lima" [ref=f1e283]: Ver
+                    - button "Editar Paulo Lima" [ref=f1e284]: Editar
+                    - button "Excluir Paulo Lima" [ref=f1e285]: Excluir
+              - row [ref=f1e286] [cursor=pointer]:
+                - rowheader "Gabriel Araújo" [ref=f1e287]
+                - cell "gabriel.araujo.1638@exemplo.test" [ref=f1e288]
+                - cell "+55 21 97766-1373" [ref=f1e289]
+                - cell "112.963.403-50" [ref=f1e290]
+                - cell "Ativo" [ref=f1e291]
+                - cell "Camila Rocha" [ref=f1e293]
+                - cell "10/09/2026" [ref=f1e294]
+                - cell [ref=f1e295]:
+                  - generic [ref=f1e296]:
+                    - button "Ver Gabriel Araújo" [ref=f1e297]: Ver
+                    - button "Editar Gabriel Araújo" [ref=f1e298]: Editar
+                    - button "Excluir Gabriel Araújo" [ref=f1e299]: Excluir
+              - row [ref=f1e300] [cursor=pointer]:
+                - rowheader "Márcia Rocha" [ref=f1e301]
+                - cell "marcia.rocha.878@exemplo.test" [ref=f1e302]
+                - cell "+55 41 99293-2840" [ref=f1e303]
+                - cell "106.944.963-67" [ref=f1e304]
+                - cell "Ativo" [ref=f1e305]
+                - cell "—" [ref=f1e307]
+                - cell "10/09/2026" [ref=f1e308]
+                - cell [ref=f1e309]:
+                  - generic [ref=f1e310]:
+                    - button "Ver Márcia Rocha" [ref=f1e311]: Ver
+                    - button "Editar Márcia Rocha" [ref=f1e312]: Editar
+                    - button "Excluir Márcia Rocha" [ref=f1e313]: Excluir
+              - row [ref=f1e314] [cursor=pointer]:
+                - rowheader "Juliana Souza" [ref=f1e315]
+                - cell "juliana.souza.1070@exemplo.test" [ref=f1e316]
+                - cell "+55 31 95537-4126" [ref=f1e317]
+                - cell "108.465.411-30" [ref=f1e318]
+                - cell "Ativo" [ref=f1e319]
+                - cell "Bruno Lima" [ref=f1e321]
+                - cell "10/09/2026" [ref=f1e322]
+                - cell [ref=f1e323]:
+                  - generic [ref=f1e324]:
+                    - button "Ver Juliana Souza" [ref=f1e325]: Ver
+                    - button "Editar Juliana Souza" [ref=f1e326]: Editar
+                    - button "Excluir Juliana Souza" [ref=f1e327]: Excluir
+              - row [ref=f1e328] [cursor=pointer]:
+                - rowheader "Juliana Ramos" [ref=f1e329]
+                - cell "juliana.ramos.2930@exemplo.test" [ref=f1e330]
+                - cell "+55 51 93749-7714" [ref=f1e331]
+                - cell "123.194.751-92" [ref=f1e332]
+                - cell "Ativo" [ref=f1e333]
+                - cell "Bruno Lima" [ref=f1e335]
+                - cell "10/09/2026" [ref=f1e336]
+                - cell [ref=f1e337]:
+                  - generic [ref=f1e338]:
+                    - button "Ver Juliana Ramos" [ref=f1e339]: Ver
+                    - button "Editar Juliana Ramos" [ref=f1e340]: Editar
+                    - button "Excluir Juliana Ramos" [ref=f1e341]: Excluir
+              - row [ref=f1e342] [cursor=pointer]:
+                - rowheader "Francisca Pinto" [ref=f1e343]
+                - cell "francisca.pinto.1789@exemplo.test" [ref=f1e344]
+                - cell "+55 85 98705-5388" [ref=f1e345]
+                - cell "114.159.172-30" [ref=f1e346]
+                - cell "Inativo" [ref=f1e347]
+                - cell "Ana Souza" [ref=f1e349]
+                - cell "09/09/2026" [ref=f1e350]
+                - cell [ref=f1e351]:
+                  - generic [ref=f1e352]:
+                    - button "Ver Francisca Pinto" [ref=f1e353]: Ver
+                    - button "Editar Francisca Pinto" [ref=f1e354]: Editar
+                    - button "Excluir Francisca Pinto" [ref=f1e355]: Excluir
+              - row [ref=f1e356] [cursor=pointer]:
+                - rowheader "Lucas Moreira" [ref=f1e357]
+                - cell "lucas.moreira.1277@exemplo.test" [ref=f1e358]
+                - cell "—" [ref=f1e359]
+                - cell "110.104.644-93" [ref=f1e360]
+                - cell "Pausado" [ref=f1e361]
+                - cell "Bruno Lima" [ref=f1e363]
+                - cell "09/09/2026" [ref=f1e364]
+                - cell [ref=f1e365]:
+                  - generic [ref=f1e366]:
+                    - button "Ver Lucas Moreira" [ref=f1e367]: Ver
+                    - button "Editar Lucas Moreira" [ref=f1e368]: Editar
+                    - button "Excluir Lucas Moreira" [ref=f1e369]: Excluir
+              - row [ref=f1e370] [cursor=pointer]:
+                - rowheader "Fernanda Andrade" [ref=f1e371]
+                - cell "fernanda.andrade.2261@exemplo.test" [ref=f1e372]
+                - cell "+55 81 94993-1868" [ref=f1e373]
+                - cell "117.896.940-19" [ref=f1e374]
+                - cell "Inativo" [ref=f1e375]
+                - cell "Bruno Lima" [ref=f1e377]
+                - cell "09/09/2026" [ref=f1e378]
+                - cell [ref=f1e379]:
+                  - generic [ref=f1e380]:
+                    - button "Ver Fernanda Andrade" [ref=f1e381]: Ver
+                    - button "Editar Fernanda Andrade" [ref=f1e382]: Editar
+                    - button "Excluir Fernanda Andrade" [ref=f1e383]: Excluir
+              - row [ref=f1e384] [cursor=pointer]:
+                - rowheader "Márcia Dias" [ref=f1e385]
+                - cell "marcia.dias.2693@exemplo.test" [ref=f1e386]
+                - cell "—" [ref=f1e387]
+                - cell "—" [ref=f1e388]
+                - cell "Ativo" [ref=f1e389]
+                - cell "Bruno Lima" [ref=f1e391]
+                - cell "09/09/2026" [ref=f1e392]
+                - cell [ref=f1e393]:
+                  - generic [ref=f1e394]:
+                    - button "Ver Márcia Dias" [ref=f1e395]: Ver
+                    - button "Editar Márcia Dias" [ref=f1e396]: Editar
+                    - button "Excluir Márcia Dias" [ref=f1e397]: Excluir
+              - row [ref=f1e398] [cursor=pointer]:
+                - rowheader "Antônio Brandão" [ref=f1e399]
+                - cell "antonio.brandao.195@exemplo.test" [ref=f1e400]
+                - cell "+55 11 94661-2889" [ref=f1e401]
+                - cell "101.536.286-93" [ref=f1e402]
+                - cell "Inativo" [ref=f1e403]
+                - cell "Camila Rocha" [ref=f1e405]
+                - cell "09/09/2026" [ref=f1e406]
+                - cell [ref=f1e407]:
+                  - generic [ref=f1e408]:
+                    - button "Ver Antônio Brandão" [ref=f1e409]: Ver
+                    - button "Editar Antônio Brandão" [ref=f1e410]: Editar
+                    - button "Excluir Antônio Brandão" [ref=f1e411]: Excluir
+              - row [ref=f1e412] [cursor=pointer]:
+                - rowheader "Amanda Martins" [ref=f1e413]
+                - cell "amanda.martins.2897@exemplo.test" [ref=f1e414]
+                - cell "+55 71 98043-6093" [ref=f1e415]
+                - cell "122.933.424-68" [ref=f1e416]
+                - cell "Ativo" [ref=f1e417]
+                - cell "Bruno Lima" [ref=f1e419]
+                - cell "09/09/2026" [ref=f1e420]
+                - cell [ref=f1e421]:
+                  - generic [ref=f1e422]:
+                    - button "Ver Amanda Martins" [ref=f1e423]: Ver
+                    - button "Editar Amanda Martins" [ref=f1e424]: Editar
+                    - button "Excluir Amanda Martins" [ref=f1e425]: Excluir
+              - row [ref=f1e426] [cursor=pointer]:
+                - rowheader "Ana Rocha" [ref=f1e427]
+                - cell "ana.rocha.4@exemplo.test" [ref=f1e428]
+                - cell "—" [ref=f1e429]
+                - cell "100.023.757-53" [ref=f1e430]
+                - cell "Pausado" [ref=f1e431]
+                - cell "Ana Souza" [ref=f1e433]
+                - cell "09/09/2026" [ref=f1e434]
+                - cell [ref=f1e435]:
+                  - generic [ref=f1e436]:
+                    - button "Ver Ana Rocha" [ref=f1e437]: Ver
+                    - button "Editar Ana Rocha" [ref=f1e438]: Editar
+                    - button "Excluir Ana Rocha" [ref=f1e439]: Excluir
+              - row [ref=f1e440] [cursor=pointer]:
+                - rowheader "Daniel Santana" [ref=f1e441]
+                - cell "daniel.santana.429@exemplo.test" [ref=f1e442]
+                - cell "+55 81 97440-1453" [ref=f1e443]
+                - cell "103.389.332-39" [ref=f1e444]
+                - cell "Ativo" [ref=f1e445]
+                - cell "Camila Rocha" [ref=f1e447]
+                - cell "09/09/2026" [ref=f1e448]
+                - cell [ref=f1e449]:
+                  - generic [ref=f1e450]:
+                    - button "Ver Daniel Santana" [ref=f1e451]: Ver
+                    - button "Editar Daniel Santana" [ref=f1e452]: Editar
+                    - button "Excluir Daniel Santana" [ref=f1e453]: Excluir
+              - row [ref=f1e454] [cursor=pointer]:
+                - rowheader "Juliana Santana" [ref=f1e455]
+                - cell "juliana.santana.1962@exemplo.test" [ref=f1e456]
+                - cell "+55 31 91058-8123" [ref=f1e457]
+                - cell "—" [ref=f1e458]
+                - cell "Ativo" [ref=f1e459]
+                - cell "Camila Rocha" [ref=f1e461]
+                - cell "09/09/2026" [ref=f1e462]
+                - cell [ref=f1e463]:
+                  - generic [ref=f1e464]:
+                    - button "Ver Juliana Santana" [ref=f1e465]: Ver
+                    - button "Editar Juliana Santana" [ref=f1e466]: Editar
+                    - button "Excluir Juliana Santana" [ref=f1e467]: Excluir
+              - row [ref=f1e468] [cursor=pointer]:
+                - rowheader "Adriana Ribeiro" [ref=f1e469]
+                - cell "adriana.ribeiro.1849@exemplo.test" [ref=f1e470]
+                - cell "+55 61 94158-2397" [ref=f1e471]
+                - cell "—" [ref=f1e472]
+                - cell "Inativo" [ref=f1e473]
+                - cell "Ana Souza" [ref=f1e475]
+                - cell "09/09/2026" [ref=f1e476]
+                - cell [ref=f1e477]:
+                  - generic [ref=f1e478]:
+                    - button "Ver Adriana Ribeiro" [ref=f1e479]: Ver
+                    - button "Editar Adriana Ribeiro" [ref=f1e480]: Editar
+                    - button "Excluir Adriana Ribeiro" [ref=f1e481]: Excluir
+              - row [ref=f1e482] [cursor=pointer]:
+                - rowheader "Aline Carvalho" [ref=f1e483]
+                - cell "aline.carvalho.577@exemplo.test" [ref=f1e484]
+                - cell "—" [ref=f1e485]
+                - cell "104.561.344-41" [ref=f1e486]
+                - cell "Ativo" [ref=f1e487]
+                - cell "Ana Souza" [ref=f1e489]
+                - cell "09/09/2026" [ref=f1e490]
+                - cell [ref=f1e491]:
+                  - generic [ref=f1e492]:
+                    - button "Ver Aline Carvalho" [ref=f1e493]: Ver
+                    - button "Editar Aline Carvalho" [ref=f1e494]: Editar
+                    - button "Excluir Aline Carvalho" [ref=f1e495]: Excluir
+              - row [ref=f1e496] [cursor=pointer]:
+                - rowheader "Juliana Souza" [ref=f1e497]
+                - cell "juliana.souza.1752@exemplo.test" [ref=f1e498]
+                - cell "+55 51 99402-7293" [ref=f1e499]
+                - cell "113.866.169-40" [ref=f1e500]
+                - cell "Ativo" [ref=f1e501]
+                - cell "Camila Rocha" [ref=f1e503]
+                - cell "09/09/2026" [ref=f1e504]
+                - cell [ref=f1e505]:
+                  - generic [ref=f1e506]:
+                    - button "Ver Juliana Souza" [ref=f1e507]: Ver
+                    - button "Editar Juliana Souza" [ref=f1e508]: Editar
+                    - button "Excluir Juliana Souza" [ref=f1e509]: Excluir
+              - row [ref=f1e510] [cursor=pointer]:
+                - rowheader "Fernanda Barbosa" [ref=f1e511]
+                - cell "fernanda.barbosa.336@exemplo.test" [ref=f1e512]
+                - cell "+55 85 93426-8823" [ref=f1e513]
+                - cell "102.652.865-81" [ref=f1e514]
+                - cell "Inativo" [ref=f1e515]
+                - cell "Camila Rocha" [ref=f1e517]
+                - cell "08/09/2026" [ref=f1e518]
+                - cell [ref=f1e519]:
+                  - generic [ref=f1e520]:
+                    - button "Ver Fernanda Barbosa" [ref=f1e521]: Ver
+                    - button "Editar Fernanda Barbosa" [ref=f1e522]: Editar
+                    - button "Excluir Fernanda Barbosa" [ref=f1e523]: Excluir
+              - row [ref=f1e524] [cursor=pointer]:
+                - rowheader "Pedro Pinto" [ref=f1e525]
+                - cell "pedro.pinto.2898@exemplo.test" [ref=f1e526]
+                - cell "+55 11 97132-7300" [ref=f1e527]
+                - cell "—" [ref=f1e528]
+                - cell "Pausado" [ref=f1e529]
+                - cell "Camila Rocha" [ref=f1e531]
+                - cell "08/09/2026" [ref=f1e532]
+                - cell [ref=f1e533]:
+                  - generic [ref=f1e534]:
+                    - button "Ver Pedro Pinto" [ref=f1e535]: Ver
+                    - button "Editar Pedro Pinto" [ref=f1e536]: Editar
+                    - button "Excluir Pedro Pinto" [ref=f1e537]: Excluir
+              - row [ref=f1e538] [cursor=pointer]:
+                - rowheader "Rodrigo Simões" [ref=f1e539]
+                - cell "rodrigo.simoes.888@exemplo.test" [ref=f1e540]
+                - cell "+55 21 96088-1765" [ref=f1e541]
+                - cell "107.024.153-91" [ref=f1e542]
+                - cell "Inativo" [ref=f1e543]
+                - cell "Camila Rocha" [ref=f1e545]
+                - cell "08/09/2026" [ref=f1e546]
+                - cell [ref=f1e547]:
+                  - generic [ref=f1e548]:
+                    - button "Ver Rodrigo Simões" [ref=f1e549]: Ver
+                    - button "Editar Rodrigo Simões" [ref=f1e550]: Editar
+                    - button "Excluir Rodrigo Simões" [ref=f1e551]: Excluir
+              - row [ref=f1e552] [cursor=pointer]:
+                - rowheader "Aline Rodrigues" [ref=f1e553]
+                - cell "aline.rodrigues.2649@exemplo.test" [ref=f1e554]
+                - cell "+55 61 97329-3301" [ref=f1e555]
+                - cell "120.969.512-08" [ref=f1e556]
+                - cell "Ativo" [ref=f1e557]
+                - cell "Camila Rocha" [ref=f1e559]
+                - cell "08/09/2026" [ref=f1e560]
+                - cell [ref=f1e561]:
+                  - generic [ref=f1e562]:
+                    - button "Ver Aline Rodrigues" [ref=f1e563]: Ver
+                    - button "Editar Aline Rodrigues" [ref=f1e564]: Editar
+                    - button "Excluir Aline Rodrigues" [ref=f1e565]: Excluir
+              - row [ref=f1e566] [cursor=pointer]:
+                - rowheader "Paulo Alves" [ref=f1e567]
+                - cell "paulo.alves.1009@exemplo.test" [ref=f1e568]
+                - cell "+55 51 98507-3631" [ref=f1e569]
+                - cell "107.982.352-25" [ref=f1e570]
+                - cell "Inativo" [ref=f1e571]
+                - cell "Ana Souza" [ref=f1e573]
+                - cell "08/09/2026" [ref=f1e574]
+                - cell [ref=f1e575]:
+                  - generic [ref=f1e576]:
+                    - button "Ver Paulo Alves" [ref=f1e577]: Ver
+                    - button "Editar Paulo Alves" [ref=f1e578]: Editar
+                    - button "Excluir Paulo Alves" [ref=f1e579]: Excluir
+              - row [ref=f1e580] [cursor=pointer]:
+                - rowheader "Gustavo Simões" [ref=f1e581]
+                - cell "gustavo.simoes.2782@exemplo.test" [ref=f1e582]
+                - cell "+55 61 93133-1169" [ref=f1e583]
+                - cell "122.022.739-05" [ref=f1e584]
+                - cell "Ativo" [ref=f1e585]
+                - cell "Ana Souza" [ref=f1e587]
+                - cell "08/09/2026" [ref=f1e588]
+                - cell [ref=f1e589]:
+                  - generic [ref=f1e590]:
+                    - button "Ver Gustavo Simões" [ref=f1e591]: Ver
+                    - button "Editar Gustavo Simões" [ref=f1e592]: Editar
+                    - button "Excluir Gustavo Simões" [ref=f1e593]: Excluir
+              - row [ref=f1e594] [cursor=pointer]:
+                - rowheader "Daniel Alves" [ref=f1e595]
+                - cell "daniel.alves.148@exemplo.test" [ref=f1e596]
+                - cell "+55 85 91460-1299" [ref=f1e597]
+                - cell "101.164.093-71" [ref=f1e598]
+                - cell "Ativo" [ref=f1e599]
+                - cell "Ana Souza" [ref=f1e601]
+                - cell "08/09/2026" [ref=f1e602]
+                - cell [ref=f1e603]:
+                  - generic [ref=f1e604]:
+                    - button "Ver Daniel Alves" [ref=f1e605]: Ver
+                    - button "Editar Daniel Alves" [ref=f1e606]: Editar
+                    - button "Excluir Daniel Alves" [ref=f1e607]: Excluir
+              - row [ref=f1e608] [cursor=pointer]:
+                - rowheader "José Lima" [ref=f1e609]
+                - cell "jose.lima.2078@exemplo.test" [ref=f1e610]
+                - cell "+55 71 99727-4518" [ref=f1e611]
+                - cell "116.447.763-32" [ref=f1e612]
+                - cell "Ativo" [ref=f1e613]
+                - cell "Bruno Lima" [ref=f1e615]
+                - cell "07/09/2026" [ref=f1e616]
+                - cell [ref=f1e617]:
+                  - generic [ref=f1e618]:
+                    - button "Ver José Lima" [ref=f1e619]: Ver
+                    - button "Editar José Lima" [ref=f1e620]: Editar
+                    - button "Excluir José Lima" [ref=f1e621]: Excluir
+              - row [ref=f1e622] [cursor=pointer]:
+                - rowheader "Camila Gomes" [ref=f1e623]
+                - cell "camila.gomes.1971@exemplo.test" [ref=f1e624]
+                - cell "+55 41 98625-2140" [ref=f1e625]
+                - cell "115.600.430-67" [ref=f1e626]
+                - cell "Ativo" [ref=f1e627]
+                - cell "Camila Rocha" [ref=f1e629]
+                - cell "07/09/2026" [ref=f1e630]
+                - cell [ref=f1e631]:
+                  - generic [ref=f1e632]:
+                    - button "Ver Camila Gomes" [ref=f1e633]: Ver
+                    - button "Editar Camila Gomes" [ref=f1e634]: Editar
+                    - button "Excluir Camila Gomes" [ref=f1e635]: Excluir
+              - row [ref=f1e636] [cursor=pointer]:
+                - rowheader "Ana Cardoso" [ref=f1e637]
+                - cell "ana.cardoso.223@exemplo.test" [ref=f1e638]
+                - cell "—" [ref=f1e639]
+                - cell "101.758.018-94" [ref=f1e640]
+                - cell "Pausado" [ref=f1e641]
+                - cell "Ana Souza" [ref=f1e643]
+                - cell "07/09/2026" [ref=f1e644]
+                - cell [ref=f1e645]:
+                  - generic [ref=f1e646]:
+                    - button "Ver Ana Cardoso" [ref=f1e647]: Ver
+                    - button "Editar Ana Cardoso" [ref=f1e648]: Editar
+                    - button "Excluir Ana Cardoso" [ref=f1e649]: Excluir
+              - row [ref=f1e650] [cursor=pointer]:
+                - rowheader "Júlia Freitas" [ref=f1e651]
+                - cell "julia.freitas.171@exemplo.test" [ref=f1e652]
+                - cell "—" [ref=f1e653]
+                - cell "101.346.230-02" [ref=f1e654]
+                - cell "Ativo" [ref=f1e655]
+                - cell "Camila Rocha" [ref=f1e657]
+                - cell "07/09/2026" [ref=f1e658]
+                - cell [ref=f1e659]:
+                  - generic [ref=f1e660]:
+                    - button "Ver Júlia Freitas" [ref=f1e661]: Ver
+                    - button "Editar Júlia Freitas" [ref=f1e662]: Editar
+                    - button "Excluir Júlia Freitas" [ref=f1e663]: Excluir
+              - row [ref=f1e664] [cursor=pointer]:
+                - rowheader "Gustavo Freitas" [ref=f1e665]
+                - cell "gustavo.freitas.1193@exemplo.test" [ref=f1e666]
+                - cell "+55 21 97111-4040" [ref=f1e667]
+                - cell "109.439.448-30" [ref=f1e668]
+                - cell "Ativo" [ref=f1e669]
+                - cell "Bruno Lima" [ref=f1e671]
+                - cell "07/09/2026" [ref=f1e672]
+                - cell [ref=f1e673]:
+                  - generic [ref=f1e674]:
+                    - button "Ver Gustavo Freitas" [ref=f1e675]: Ver
+                    - button "Editar Gustavo Freitas" [ref=f1e676]: Editar
+                    - button "Excluir Gustavo Freitas" [ref=f1e677]: Excluir
+              - row [ref=f1e678] [cursor=pointer]:
+                - rowheader "Amanda Simões" [ref=f1e679]
+                - cell "amanda.simoes.2669@exemplo.test" [ref=f1e680]
+                - cell "—" [ref=f1e681]
+                - cell "121.127.892-10" [ref=f1e682]
+                - cell "Ativo" [ref=f1e683]
+                - cell "Bruno Lima" [ref=f1e685]
+                - cell "07/09/2026" [ref=f1e686]
+                - cell [ref=f1e687]:
+                  - generic [ref=f1e688]:
+                    - button "Ver Amanda Simões" [ref=f1e689]: Ver
+                    - button "Editar Amanda Simões" [ref=f1e690]: Editar
+                    - button "Excluir Amanda Simões" [ref=f1e691]: Excluir
+              - row [ref=f1e692] [cursor=pointer]:
+                - rowheader "Luiz Cardoso" [ref=f1e693]
+                - cell "luiz.cardoso.2310@exemplo.test" [ref=f1e694]
+                - cell "+55 81 99181-6370" [ref=f1e695]
+                - cell "—" [ref=f1e696]
+                - cell "Ativo" [ref=f1e697]
+                - cell "Camila Rocha" [ref=f1e699]
+                - cell "06/09/2026" [ref=f1e700]
+                - cell [ref=f1e701]:
+                  - generic [ref=f1e702]:
+                    - button "Ver Luiz Cardoso" [ref=f1e703]: Ver
+                    - button "Editar Luiz Cardoso" [ref=f1e704]: Editar
+                    - button "Excluir Luiz Cardoso" [ref=f1e705]: Excluir
+              - row [ref=f1e706] [cursor=pointer]:
+                - rowheader "Débora Mendes" [ref=f1e707]
+                - cell "debora.mendes.1540@exemplo.test" [ref=f1e708]
+                - cell "+55 81 96573-6901" [ref=f1e709]
+                - cell "112.187.341-32" [ref=f1e710]
+                - cell "Inativo" [ref=f1e711]
+                - cell "Ana Souza" [ref=f1e713]
+                - cell "06/09/2026" [ref=f1e714]
+                - cell [ref=f1e715]:
+                  - generic [ref=f1e716]:
+                    - button "Ver Débora Mendes" [ref=f1e717]: Ver
+                    - button "Editar Débora Mendes" [ref=f1e718]: Editar
+                    - button "Excluir Débora Mendes" [ref=f1e719]: Excluir
+              - row [ref=f1e720] [cursor=pointer]:
+                - rowheader "João Pinto" [ref=f1e721]
+                - cell "joao.pinto.305@exemplo.test" [ref=f1e722]
+                - cell "+55 31 93022-3888" [ref=f1e723]
+                - cell "—" [ref=f1e724]
+                - cell "Ativo" [ref=f1e725]
+                - cell "Bruno Lima" [ref=f1e727]
+                - cell "06/09/2026" [ref=f1e728]
+                - cell [ref=f1e729]:
+                  - generic [ref=f1e730]:
+                    - button "Ver João Pinto" [ref=f1e731]: Ver
+                    - button "Editar João Pinto" [ref=f1e732]: Editar
+                    - button "Excluir João Pinto" [ref=f1e733]: Excluir
+              - row [ref=f1e734] [cursor=pointer]:
+                - rowheader "Aline Marques" [ref=f1e735]
+                - cell "aline.marques.2759@exemplo.test" [ref=f1e736]
+                - cell "+55 85 95758-3539" [ref=f1e737]
+                - cell "121.840.602-08" [ref=f1e738]
+                - cell "Ativo" [ref=f1e739]
+                - cell "Bruno Lima" [ref=f1e741]
+                - cell "06/09/2026" [ref=f1e742]
+                - cell [ref=f1e743]:
+                  - generic [ref=f1e744]:
+                    - button "Ver Aline Marques" [ref=f1e745]: Ver
+                    - button "Editar Aline Marques" [ref=f1e746]: Editar
+                    - button "Excluir Aline Marques" [ref=f1e747]: Excluir
+              - row [ref=f1e748] [cursor=pointer]:
+                - rowheader "Sandra Lima" [ref=f1e749]
+                - cell "sandra.lima.563@exemplo.test" [ref=f1e750]
+                - cell "+55 51 93399-5651" [ref=f1e751]
+                - cell "104.450.478-10" [ref=f1e752]
+                - cell "Pausado" [ref=f1e753]
+                - cell "Bruno Lima" [ref=f1e755]
+                - cell "06/09/2026" [ref=f1e756]
+                - cell [ref=f1e757]:
+                  - generic [ref=f1e758]:
+                    - button "Ver Sandra Lima" [ref=f1e759]: Ver
+                    - button "Editar Sandra Lima" [ref=f1e760]: Editar
+                    - button "Excluir Sandra Lima" [ref=f1e761]: Excluir
+          - navigation "Paginação de alunos" [ref=f1e763]:
+            - generic [ref=f1e764]:
+              - paragraph [ref=f1e765]: Página 1 de 60
+              - paragraph [ref=f1e766]: Mostrando 1–50 de 3.000
+            - list [ref=f1e767]:
+              - listitem [ref=f1e768]:
+                - button "‹ Anterior" [disabled] [ref=f1e769]
+              - listitem [ref=f1e770]:
+                - button "Página 1" [ref=f1e771] [cursor=pointer]: "1"
+              - listitem [ref=f1e772]:
+                - button "Página 2" [ref=f1e773] [cursor=pointer]: "2"
+              - listitem [aria-hidden] [ref=f1e774]: …
+              - listitem [ref=f1e775]:
+                - button "Página 60" [ref=f1e776] [cursor=pointer]: "60"
+              - listitem [ref=f1e777]:
+                - button "Próxima ›" [ref=f1e778] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e784] [cursor=pointer]
+  - alert [ref=f1e788]

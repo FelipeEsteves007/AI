@@ -1,0 +1,29 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e152]:
+    - banner [ref=f2e153]:
+      - generic [ref=f2e154]:
+        - generic [ref=f2e155]: CRM de Alunos
+        - navigation "Navegação principal" [ref=f2e156]:
+          - list [ref=f2e157]:
+            - listitem [ref=f2e158]:
+              - link "Dashboard" [ref=f2e159] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e160]:
+              - link "Alunos" [ref=f2e161] [cursor=pointer]:
+                - /url: /students
+            - listitem [ref=f2e162]:
+              - link "Cursos" [ref=f2e163] [cursor=pointer]:
+                - /url: /courses
+            - listitem [ref=f2e164]:
+              - link "Pipeline" [ref=f2e165] [cursor=pointer]:
+                - /url: /pipeline
+            - listitem [ref=f2e166]:
+              - link "Tarefas" [ref=f2e167] [cursor=pointer]:
+                - /url: /tasks
+        - generic [ref=f2e168]:
+          - generic [ref=f2e169]: Ana Souza
+          - button "Sair" [ref=f2e170] [cursor=pointer]
+    - main [ref=f2e171]:
+      - heading "CRM de Alunos" [level=1] [ref=f2e172]
+  - button "Open Next.js Dev Tools" [ref=f2e135] [cursor=pointer]
+  - alert [ref=f2e5]: CRM de Alunos

@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/change-password", [
+  "static/chunks/2f5677c6d060eaa9.js",
+  "static/chunks/7fbd41d92a8e1b53.js",
+  "static/chunks/9eab4d5b13d13933.js",
+  "static/chunks/1cda33fb9f3e1094.js",
+  "static/chunks/ae7ee21bdf299463.js",
+  "static/chunks/turbopack-45573a8e7fb4358c.js"
+])

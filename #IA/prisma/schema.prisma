@@ -1,0 +1,189 @@
+// Schema do banco. Os models entram nas tarefas de implementação
+// (ver ImersaoIA/specs/001-crm-alunos/data-model.md).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  admin
+  ceo
+  vendedor
+}
+
+enum StudentStatus {
+  ativo
+  inativo
+  pausado
+}
+
+enum LeadStatus {
+  prospecting
+  negotiation
+  sold
+  lost
+}
+
+enum TaskPriority {
+  low
+  normal
+  high
+}
+
+enum AuditAction {
+  LOGIN_SUCCESS
+  LOGIN_FAILURE
+  LOGIN_BLOCKED
+  LOGOUT
+  PASSWORD_CHANGED
+  PASSWORD_RESET
+  USER_CREATED
+  USER_ROLE_CHANGED
+  USER_DEACTIVATED
+  USER_REACTIVATED
+  STUDENT_DELETED
+  STUDENTS_IMPORTED
+  EMAIL_SENT
+  STUDENTS_EXPORTED
+}
+
+model User {
+  id                 String   @id @default(uuid())
+  name               String
+  email              String   @unique
+  passwordHash       String
+  role               UserRole
+  isActive           Boolean  @default(true)
+  mustChangePassword Boolean  @default(true)
+  tokenVersion       Int      @default(0)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  students      Student[]
+  pipelineLeads PipelineLead[]
+  tasks         Task[]
+
+  @@map("Users")
+}
+
+model AuditLog {
+  id           String      @id @default(uuid())
+  action       AuditAction
+  actorId      String?
+  targetUserId String?
+  email        String?
+  ip           String?
+  metadata     Json?
+  createdAt    DateTime    @default(now())
+
+  @@index([email, action, createdAt])
+  @@map("AuditLogs")
+}
+
+model Student {
+  id              String        @id @default(uuid())
+  name            String
+  email           String        @unique
+  phone           String?
+  cpf             String?       @unique
+  status          StudentStatus @default(ativo)
+  notes           String?
+  lastContactDate DateTime?
+  assignedTo      String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  assignedToUser User?          @relation(fields: [assignedTo], references: [id])
+  purchases      Purchase[]
+  pipelineLeads  PipelineLead[]
+  tasks          Task[]
+
+  @@index([assignedTo])
+  @@index([status])
+  @@index([createdAt])
+  @@map("Students")
+}
+
+model Course {
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  price       Decimal  @db.Decimal(10, 2)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  purchases Purchase[]
+
+  @@index([isActive])
+  @@map("Courses")
+}
+
+model Purchase {
+  id           String   @id @default(uuid())
+  studentId    String
+  courseId     String
+  purchaseDate DateTime @db.Date
+  amount       Decimal  @db.Decimal(10, 2)
+  notes        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  course  Course  @relation(fields: [courseId], references: [id])
+
+  @@unique([studentId, courseId])
+  @@index([studentId])
+  @@index([courseId])
+  @@index([purchaseDate])
+  @@map("Purchases")
+}
+
+model PipelineLead {
+  id         String     @id @default(uuid())
+  studentId  String
+  status     LeadStatus @default(prospecting)
+  assignedTo String
+  value      Decimal?   @db.Decimal(10, 2)
+  lostReason String?
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  user    User    @relation(fields: [assignedTo], references: [id])
+
+  @@index([studentId])
+  @@index([assignedTo])
+  @@index([status])
+  @@index([createdAt])
+  @@map("PipelineLeads")
+}
+
+model Task {
+  id          String       @id @default(uuid())
+  title       String
+  description String?
+  assignedTo  String
+  relatedTo   String?
+  relatedType String?
+  priority    TaskPriority @default(normal)
+  dueDate     DateTime
+  completedAt DateTime?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  assignedUser   User     @relation(fields: [assignedTo], references: [id])
+  relatedStudent Student? @relation(fields: [relatedTo], references: [id], onDelete: Cascade)
+
+  @@index([assignedTo])
+  @@index([dueDate])
+  @@index([relatedTo])
+  @@index([completedAt])
+  @@index([createdAt(sort: Desc), assignedTo])
+  @@map("Tasks")
+}

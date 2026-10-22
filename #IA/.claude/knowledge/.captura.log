@@ -1,0 +1,71 @@
+2026-09-12T18:50:23.465Z [sessao/sessao-bf9a299f] resumido em .claude\knowledge\2026-09-12-sessao-sessao-bf9a299f.md
+2026-09-12T18:50:24.596Z [sessao/sessao-bf9a299f] [embed] .claude/knowledge/2026-09-12-sessao-sessao-bf9a299f.md: 5 chunks indexados
+2026-09-12T19:05:01.698Z [subagent/task-1903] resumido em .claude\knowledge\2026-09-12-subagent-task-1903.md
+2026-09-12T19:05:03.081Z [subagent/task-1903] [embed] .claude/knowledge/2026-09-12-subagent-task-1903.md: 4 chunks indexados
+2026-09-12T19:07:41.217Z [sessao/sessao-bf9a299f] resumido em .claude\knowledge\2026-09-12-sessao-sessao-bf9a299f.md
+2026-09-12T19:07:43.658Z [sessao/sessao-bf9a299f] [embed] .claude/knowledge/2026-09-12-sessao-sessao-bf9a299f.md: 5 chunks indexados (5 antigos substituídos)
+2026-09-12T19:08:55.911Z [subagent/task-1907] resumido em .claude\knowledge\2026-09-12-subagent-task-1907.md
+2026-09-12T19:08:57.328Z [subagent/task-1907] [embed] .claude/knowledge/2026-09-12-subagent-task-1907.md: 6 chunks indexados
+2026-09-12T19:17:43.734Z [subagent/task-1916] resumido em .claude\knowledge\2026-09-12-subagent-task-1916.md
+2026-09-12T19:17:44.965Z [subagent/task-1916] [embed] .claude/knowledge/2026-09-12-subagent-task-1916.md: 6 chunks indexados
+2026-09-12T19:19:24.209Z [subagent/task-1917] resumido em .claude\knowledge\2026-09-12-subagent-task-1917.md
+2026-09-12T19:19:25.639Z [subagent/task-1917] [embed] .claude/knowledge/2026-09-12-subagent-task-1917.md: 7 chunks indexados
+2026-09-12T19:20:56.532Z [subagent/task-1919] resumido em .claude\knowledge\2026-09-12-subagent-task-1919.md
+2026-09-12T19:20:59.219Z [subagent/task-1919] [embed] .claude/knowledge/2026-09-12-subagent-task-1919.md: 6 chunks indexados
+2026-09-12T19:22:22.812Z [subagent/task-1920] resumido em .claude\knowledge\2026-09-12-subagent-task-1920.md
+2026-09-12T19:22:24.711Z [subagent/task-1920] [embed] .claude/knowledge/2026-09-12-subagent-task-1920.md: 7 chunks indexados
+2026-09-12T19:23:55.131Z [sessao/sessao-bf9a299f] resumido em .claude\knowledge\2026-09-12-sessao-sessao-bf9a299f.md
+2026-09-12T19:23:57.760Z [sessao/sessao-bf9a299f] [embed] .claude/knowledge/2026-09-12-sessao-sessao-bf9a299f.md: 7 chunks indexados (5 antigos substituídos)
+2026-09-12T19:31:41.297Z [sessao/sessao-d6c2da31] resumido em .claude\knowledge\2026-09-12-sessao-sessao-d6c2da31.md
+2026-09-12T19:31:42.252Z [sessao/sessao-d6c2da31] [embed] .claude/knowledge/2026-09-12-sessao-sessao-d6c2da31.md: 1 chunks indexados
+2026-09-12T19:35:10.570Z [subagent/task-1933] resumido em .claude\knowledge\2026-09-12-subagent-task-1933.md
+2026-09-12T19:35:13.626Z [subagent/task-1933] [embed] .claude/knowledge/2026-09-12-subagent-task-1933.md: 6 chunks indexados
+2026-09-12T19:40:20.539Z [subagent/task-1938] resumido em .claude\knowledge\2026-09-12-subagent-task-1938.md
+2026-09-12T19:40:21.931Z [subagent/task-1938] [embed] .claude/knowledge/2026-09-12-subagent-task-1938.md: 6 chunks indexados
+2026-09-12T19:40:42.870Z [frontend-ui/task-a7f39e2e] resumido em .claude\knowledge\2026-09-12-frontend-ui-task-a7f39e2e.md
+2026-09-12T19:40:44.126Z [frontend-ui/task-a7f39e2e] [embed] .claude/knowledge/2026-09-12-frontend-ui-task-a7f39e2e.md: 4 chunks indexados
+2026-09-12T19:42:16.524Z [sessao/sessao-bf9a299f] FALHOU: Command failed: C:\Program Files\nodejs\node.exe D:\1. Exemplos Cursos\#ImersaoIA\node_modules\tsx\dist\cli.mjs .claude/scripts/summarize.ts --agent sessao --slug sessao-bf9a299f --transcript C:\Users\User\.claude\projects\d--1--Exemplos-Cursos--ImersaoIA\bf9a299f-1c43-4544-8b4e-56d8ee755659.jsonl
+2026-09-12T19:45:53.502Z [sessao/sessao-8b1f3b79] resumido em .claude\knowledge\2026-09-12-sessao-sessao-8b1f3b79.md
+2026-09-12T19:45:54.514Z [code-reviewer/task-abdb4ed7] resumido em .claude\knowledge\2026-09-12-code-reviewer-task-abdb4ed7.md
+2026-09-12T19:45:55.433Z [sessao/sessao-8b1f3b79] [embed] .claude/knowledge/2026-09-12-sessao-sessao-8b1f3b79.md: 5 chunks indexados
+2026-09-12T19:45:56.133Z [code-reviewer/task-abdb4ed7] [embed] .claude/knowledge/2026-09-12-code-reviewer-task-abdb4ed7.md: 3 chunks indexados
+2026-09-12T19:49:03.682Z [backend-api/task-a1c5590e] resumido em .claude\knowledge\2026-09-12-backend-api-task-a1c5590e.md
+2026-09-12T19:49:05.015Z [backend-api/task-a1c5590e] [embed] .claude/knowledge/2026-09-12-backend-api-task-a1c5590e.md: 3 chunks indexados
+2026-09-12T19:52:33.429Z [code-reviewer/task-a73eae08] resumido em .claude\knowledge\2026-09-12-code-reviewer-task-a73eae08.md
+2026-09-12T19:52:35.094Z [code-reviewer/task-a73eae08] [embed] .claude/knowledge/2026-09-12-code-reviewer-task-a73eae08.md: 4 chunks indexados
+2026-09-12T20:02:27.127Z [frontend-ui/task-a446d76c] resumido em .claude\knowledge\2026-09-12-frontend-ui-task-a446d76c.md
+2026-09-12T20:02:29.275Z [frontend-ui/task-a446d76c] [embed] .claude/knowledge/2026-09-12-frontend-ui-task-a446d76c.md: 4 chunks indexados
+2026-09-12T20:04:28.551Z [sessao/sessao-bf9a299f] resumido em .claude\knowledge\2026-09-12-sessao-sessao-bf9a299f.md
+2026-09-12T20:04:30.262Z [sessao/sessao-bf9a299f] [embed] .claude/knowledge/2026-09-12-sessao-sessao-bf9a299f.md: 6 chunks indexados (7 antigos substituídos)
+2026-09-12T20:05:31.324Z [code-reviewer/task-a70993cd] resumido em .claude\knowledge\2026-09-12-code-reviewer-task-a70993cd.md
+2026-09-12T20:05:32.586Z [code-reviewer/task-a70993cd] [embed] .claude/knowledge/2026-09-12-code-reviewer-task-a70993cd.md: 4 chunks indexados
+2026-09-14T12:54:10.537Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T12:54:12.117Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 3 chunks indexados
+2026-09-14T13:31:44.368Z [backend-api/task-a7c32927] resumido em .claude\knowledge\2026-09-14-backend-api-task-a7c32927.md
+2026-09-14T13:31:46.619Z [backend-api/task-a7c32927] [embed] .claude/knowledge/2026-09-14-backend-api-task-a7c32927.md: 3 chunks indexados
+2026-09-14T13:32:31.036Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T13:32:31.998Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 3 chunks indexados (3 antigos substituídos)
+2026-09-14T13:33:23.033Z [code-reviewer/task-a1e45b36] resumido em .claude\knowledge\2026-09-14-code-reviewer-task-a1e45b36.md
+2026-09-14T13:33:23.848Z [code-reviewer/task-a1e45b36] [embed] .claude/knowledge/2026-09-14-code-reviewer-task-a1e45b36.md: 3 chunks indexados
+2026-09-14T13:37:31.568Z [qa-testes/task-aa958fe0] resumido em .claude\knowledge\2026-09-14-qa-testes-task-aa958fe0.md
+2026-09-14T13:37:32.304Z [qa-testes/task-aa958fe0] [embed] .claude/knowledge/2026-09-14-qa-testes-task-aa958fe0.md: 3 chunks indexados
+2026-09-14T13:43:43.873Z [backend-api/task-a7c32927] resumido em .claude\knowledge\2026-09-14-backend-api-task-a7c32927.md
+2026-09-14T13:43:44.627Z [backend-api/task-a7c32927] [embed] .claude/knowledge/2026-09-14-backend-api-task-a7c32927.md: 3 chunks indexados (3 antigos substituídos)
+2026-09-14T13:50:26.320Z [qa-testes/task-ad847053] resumido em .claude\knowledge\2026-09-14-qa-testes-task-ad847053.md
+2026-09-14T13:50:27.065Z [qa-testes/task-ad847053] [embed] .claude/knowledge/2026-09-14-qa-testes-task-ad847053.md: 4 chunks indexados
+2026-09-14T13:53:26.502Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T13:53:27.336Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 6 chunks indexados (3 antigos substituídos)
+2026-09-14T14:26:09.005Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T14:26:10.152Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 5 chunks indexados (6 antigos substituídos)
+2026-09-14T14:55:41.126Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T14:55:42.152Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 6 chunks indexados (5 antigos substituídos)
+2026-09-14T16:42:25.506Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T16:42:26.311Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 3 chunks indexados (6 antigos substituídos)
+2026-09-14T18:48:49.661Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T18:48:51.663Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 4 chunks indexados (3 antigos substituídos)
+2026-09-14T19:05:40.834Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T19:05:42.739Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 3 chunks indexados (4 antigos substituídos)
+2026-09-14T19:31:19.175Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T19:31:20.026Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 4 chunks indexados (3 antigos substituídos)
+2026-09-14T19:51:25.817Z [sessao/sessao-be3c5c5e] resumido em .claude\knowledge\2026-09-14-sessao-sessao-be3c5c5e.md
+2026-09-14T19:51:26.535Z [sessao/sessao-be3c5c5e] [embed] .claude/knowledge/2026-09-14-sessao-sessao-be3c5c5e.md: 3 chunks indexados (4 antigos substituídos)

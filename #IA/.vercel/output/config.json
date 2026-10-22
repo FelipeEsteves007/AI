@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308,
+      "continue": true
+    },
+    {
+      "src": "/_next/__private/trace",
+      "dest": "/404",
+      "status": 404,
+      "continue": true
+    },
+    {
+      "src": "/404/?",
+      "status": 404,
+      "continue": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-prerender-revalidate"
+        }
+      ]
+    },
+    {
+      "src": "/500",
+      "status": 500,
+      "continue": true
+    },
+    {
+      "src": "^/api(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+      "dest": "http://localhost:3001/api/$1",
+      "continue": true,
+      "override": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/_next/data/(.*)",
+      "dest": "/_next/data/$1",
+      "check": true
+    },
+    {
+      "handle": "resource"
+    },
+    {
+      "src": "/.*",
+      "status": 404
+    },
+    {
+      "handle": "miss"
+    },
+    {
+      "src": "/_next/static/.+",
+      "status": 404,
+      "check": true,
+      "dest": "/_next/static/not-found.txt",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "handle": "rewrite"
+    },
+    {
+      "src": "/_next/data/(.*)",
+      "dest": "/404",
+      "status": 404
+    },
+    {
+      "src": "^/api/(?<nxtPpath>.+?)(?:\\.rsc)(?:/)?$",
+      "dest": "/api/[...path].rsc?nxtPpath=$nxtPpath"
+    },
+    {
+      "src": "^/api/(?<nxtPpath>.+?)(?:/)?$",
+      "dest": "/api/[...path]?nxtPpath=$nxtPpath"
+    },
+    {
+      "src": "^/students/(?<nxtPid>[^/]+?)(?:\\.rsc)(?:/)?$",
+      "dest": "/students/[id].rsc?nxtPid=$nxtPid"
+    },
+    {
+      "src": "^/students/(?<nxtPid>[^/]+?)(?:/)?$",
+      "dest": "/students/[id]?nxtPid=$nxtPid"
+    },
+    {
+      "handle": "hit"
+    },
+    {
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|Bb34HAiXOPKlr\\-07UwSrS)/.+",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true,
+      "important": true
+    },
+    {
+      "src": "/index(?:/)?",
+      "headers": {
+        "x-matched-path": "/"
+      },
+      "continue": true,
+      "important": true
+    },
+    {
+      "src": "/((?!index$).*?)(?:/)?",
+      "headers": {
+        "x-matched-path": "/$1"
+      },
+      "continue": true,
+      "important": true
+    },
+    {
+      "handle": "error"
+    },
+    {
+      "src": "/.*",
+      "dest": "/404",
+      "status": 404,
+      "headers": {
+        "x-next-error-status": "404"
+      }
+    },
+    {
+      "src": "/.*",
+      "dest": "/500",
+      "status": 500,
+      "headers": {
+        "x-next-error-status": "500"
+      }
+    }
+  ],
+  "images": {
+    "domains": [],
+    "sizes": [
+      640,
+      750,
+      828,
+      1080,
+      1200,
+      1920,
+      2048,
+      3840,
+      16,
+      32,
+      48,
+      64,
+      96,
+      128,
+      256,
+      384
+    ],
+    "remotePatterns": [],
+    "minimumCacheTTL": 60,
+    "formats": [
+      "image/webp"
+    ],
+    "dangerouslyAllowSVG": false,
+    "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
+    "contentDispositionType": "attachment"
+  },
+  "overrides": {
+    "404.html": {
+      "path": "404",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "500.html": {
+      "path": "500",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "change-password.html": {
+      "path": "change-password",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "courses.html": {
+      "path": "courses",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "index.html": {
+      "path": "index",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "login.html": {
+      "path": "login",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "pipeline.html": {
+      "path": "pipeline",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "settings/import.html": {
+      "path": "settings/import",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "settings/users.html": {
+      "path": "settings/users",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "students.html": {
+      "path": "students",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "students/[id].html": {
+      "path": "students/[id]",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "tasks.html": {
+      "path": "tasks",
+      "contentType": "text/html; charset=utf-8"
+    },
+    "_next/static/not-found.txt": {
+      "contentType": "text/plain"
+    }
+  },
+  "framework": {
+    "slug": "nextjs",
+    "version": "15.5.25"
+  },
+  "crons": []
+}
