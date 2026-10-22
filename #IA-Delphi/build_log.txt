@@ -1,0 +1,7 @@
+Microsoft (R) Versão do Mecanismo de Compilação 4.8.9221.0
+[Microsoft .NET Framework, Versão 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Embarcadero Delphi for Win32 compiler version 37.0
+  Copyright (c) 1983,2026 Embarcadero Technologies, Inc.
+  60 lines, 0.55 seconds, 2035064 bytes code, 51280 bytes data.

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/23 12:22:11.000.552,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/01 17:49:09.000.203,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/01 18:00:55.000.860,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/01 18:03:44.000.088,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/11 15:30:01.000.306,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/04 14:46:36.000.930,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/10 15:13:54.000.338,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/12 08:36:30.000.244,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/01/25 07:45:10.000.090,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/02/05 12:36:39.000.541,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/02/27 10:45:59.000.743,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/03/17 19:38:43.000.246,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/03/24 19:45:03.000.964,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/04/14 18:41:17.000.486,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/05/13 10:07:19.000.937,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/06/20 12:35:54.000.550,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/07/28 15:34:29.000.128,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/08/06 09:48:47.000.414,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/08/21 14:22:26.000.853,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/09/10 21:07:09.000.069,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/10/01 18:06:04.000.464,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/10/15 12:41:32.000.449,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/10/15 13:01:37.000.183,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/10/23 20:17:12.000.575,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2026/03/20 08:31:41.000.654,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2026/06/26 11:59:31.000.048,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2026/09/11 16:13:44.000.934,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2026/09/11 16:14:34.000.357,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\1. Exemplos Cursos\#ImersaoIA-Delphi\Unit3.dfm</Transaction>
+    <Transaction>2026/09/11 16:14:34.000.357,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\1. Exemplos Cursos\#ImersaoIA-Delphi\Unit3.pas</Transaction>
+    <Transaction>2026/09/11 16:14:43.000.090,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\1. Exemplos Cursos\#ImersaoIA-Delphi\AppImersao.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="RX8NB0503LV" Android="RX8NB0503LV"/>
+		<PMacMini iOSSimARM64="_iossimulator_FD3177E4-F7F4-43AF-BD29-6D4408DF6597" iOSDevice64="_iosdevicectl_00008101-0002651A0221001E"/>
+	</ActiveMobileDevice>
+</BorlandProject>
