@@ -107,3 +107,17 @@ The idea is that you first write down what you want to build (the spec), and the
 - Acceptance criteria: how to determine when it’s finished
 
 Why use it: Vague requests lead the AI ​​to guess (hallucinate). The spec removes ambiguity before the coding begins.
+
+[ PRD ] ──► [ Constitution ] ──► [ Specify ] ──► [ Plan ] ──► [ Tasks ] ──► [ Implement ]
+
+PRD (Business): Defines the "what" and the "why." Focuses on objectives, scope, and the user's problem.
+
+Constitution (Project Rules): Global, non-negotiable technical rules. Includes Delphi coding standards, layered architecture, naming conventions, and frameworks.
+
+Specify (Functional): Business rules for the feature. Covers use cases, screen validations, alternative flows, and acceptance criteria (Given/When/Then).
+
+Plan (Technical): The "how" within the Delphi context. Includes class modeling, interfaces, records, DTOs, and database modifications.
+
+Tasks (Execution): A list of atomic, sequential tasks. Each item must be small, compilable, and independently testable.
+
+Implement (Coding): Generating code via DelphiDev, executing one task at a time while strictly adhering to the Plan and the Constitution.
