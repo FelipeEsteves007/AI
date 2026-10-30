@@ -121,3 +121,10 @@ Plan (Technical): The "how" within the Delphi context. Includes class modeling, 
 Tasks (Execution): A list of atomic, sequential tasks. Each item must be small, compilable, and independently testable.
 
 Implement (Coding): Generating code via DelphiDev, executing one task at a time while strictly adhering to the Plan and the Constitution.
+
+9. /init, CLAUDE.md, and AGENTS.md
+
+- /init: A command that analyzes the project and generates an initial CLAUDE.md file. I subsequently reviewed and adjusted it.
+- AGENTS.md: The equivalent of CLAUDE.md in other tools (e.g., OpenCode). Each tool has its own specific file.
+- Multiple .md files are possible: In large projects (e.g., an ERP with many modules), there might be a main file, with additional files for each module.
+- The main file is the first one to be read, so it is kept concise—no more than 400 lines (a limit mentioned during the lesson).
